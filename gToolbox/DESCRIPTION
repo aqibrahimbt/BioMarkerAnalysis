@@ -1,0 +1,26 @@
+Package: gToolbox
+Title: Toolbox for differential gene expression and classification
+Version: 0.90
+Authors@R: c(person("Markus", "Fricke", email = "fricke@genevention.com", role = c("aut", "cre")), person("Abdul", "Ibrahim", email = "ibrahim@genevention.com", role = c("aut")))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.4.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2,
+    jsonlite,
+    stringr,
+    Rtsne,
+    digest,
+    optparse,
+    usdm,
+    caret,
+    e1071,
+    httr,
+    dplyr,
+    ranger,
+    randomForest,
+    testthat,
+    DESeq2,
+    genefilter
+RoxygenNote: 6.0.1

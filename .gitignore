@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+r_data_analyses.Rproj
+pipeline.nb.html
+output/
+gToolbox_*
+.DS_Store
