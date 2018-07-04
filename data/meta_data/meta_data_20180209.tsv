@@ -1,0 +1,1145 @@
+dataset	sample	file	sample id	disease stage	tissue phenotype	phenotype	gender	age	cell line	disease	latency type	time	new sample group	virus	tissue	treatment	disease details	genotype	tissue from cell line	cell type	experimental process	tissue part
+GSE18381	GSM458542	SRR038859	N/A	N/A	N/A	N/A	N/A	N/A	 secondary cutaneous melanoma cell line	skin melanoma	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE18381	GSM458544	SRR038861	N/A	N/A	N/A	N/A	N/A	N/A	secondary cutaneous melanoma cell line	skin melanoma	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE18381	GSM458539	SRR038856	N/A	N/A	N/A	N/A	N/A	N/A	secondary mucosal melanoma cell line	mucosal melanoma	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE18381	GSM458541	SRR038858	N/A	N/A	N/A	N/A	N/A	N/A	primary uveal melanoma cell line	uveal melanoma	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE18381	GSM458543	SRR038860	N/A	N/A	N/A	N/A	N/A	N/A	secondary cutaneous melanoma cell line	skin melanoma	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE18381	GSM458538	SRR038855	N/A	N/A	N/A	N/A	N/A	N/A	secondary acral melanoma cell line	acral lentiginous melanoma	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE18381	GSM458536	SRR038853	N/A	N/A	N/A	N/A	N/A	N/A	melanocyte cell line	healthy	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	melanocyte	N/A	N/A
+GSE18381	GSM458535	SRR038852	N/A	N/A	N/A	N/A	N/A	N/A	melanoblast cell line	healthy	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	melanoblast	N/A	N/A
+GSE18381	GSM458537	SRR038854	N/A	N/A	N/A	N/A	N/A	N/A	giant congental nevus cell line	Congenital giant melanocytic nevus	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE18381	GSM458545	SRR038862	N/A	N/A	N/A	N/A	N/A	N/A	secondary cutaneous melanoma from a chronically sun-damaged body site cell line	skin melanoma	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE18381	GSM458546	SRR038863	N/A	N/A	N/A	N/A	N/A	N/A	secondary cutaneous melanoma cell line	skin melanoma	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE18381	GSM458540	SRR038857	N/A	N/A	N/A	N/A	N/A	N/A	secondary cutaneous melanoma cell line	skin melanoma	N/A	N/A	disease+cell type	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE24457	GSM602590	SRR070243	N/A	T1 tumor stage	diseased tissue	N/A	female organism	40	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602588	SRR070241	N/A	T2 tumor stage	diseased tissue	N/A	female organism	52	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602594	SRR070247	N/A	T2 tumor stage	diseased tissue	N/A	female organism	48	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602589	SRR070242	N/A	T1 tumor stage	adjacent healthy tissue	N/A	female organism	40	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602592	SRR070245	N/A	T2 tumor stage	diseased tissue	N/A	male organism	58	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602595	SRR070248	N/A	T4 tumor stage	adjacent healthy tissue	N/A	male organism	52	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602585	SRR070238	N/A	T1 tumor stage	adjacent healthy tissue	N/A	male organism	27	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602582	SRR070235	N/A	T2 tumor stage	diseased tissue	N/A	male organism	41	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602591	SRR070244	N/A	T2 tumor stage	adjacent healthy tissue	N/A	male organism	58	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602587	SRR070240	N/A	T2 tumor stage	adjacent healthy tissue	N/A	female organism	52	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602596	SRR070249	N/A	T4 tumor stage	diseased tissue	N/A	male organism	52	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602580	SRR070233	N/A	T2 tumor stage	diseased tissue	N/A	male organism	36	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602583	SRR070236	N/A	T1 tumor stage	adjacent healthy tissue	N/A	male organism	40	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602579	SRR070232	N/A	T2 tumor stage	adjacent healthy tissue	N/A	male organism	36	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602586	SRR070239	N/A	T1 tumor stage	diseased tissue	N/A	male organism	27	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602584	SRR070237	N/A	T1 tumor stage	diseased tissue	N/A	male organism	40	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602577	SRR070230	N/A	T1 tumor stage	adjacent healthy tissue	N/A	male organism	32	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602581	SRR070234	N/A	T2 tumor stage	adjacent healthy tissue	N/A	male organism	41	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602593	SRR070246	N/A	T2 tumor stage	adjacent healthy tissue	N/A	female organism	48	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE24457	GSM602578	SRR070231	N/A	T1 tumor stage	diseased tissue	N/A	male organism	32	N/A	renal clear cell carcinoma	N/A	N/A	disease stage+tissue phenotype	N/A	kidney	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243302	SRR1012329	N/A	N/A	N/A	N/A	N/A	N/A	N/A	diffuse large B-cell lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243306	SRR1012333	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue	N/A	peripheral blood	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE51359	GSM1243298	SRR1012325	N/A	N/A	N/A	N/A	N/A	N/A	N/A	diffuse large B-cell lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243296	SRR1012323	N/A	N/A	N/A	N/A	N/A	N/A	N/A	follicular lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243299	SRR1012326	N/A	N/A	N/A	N/A	N/A	N/A	N/A	diffuse large B-cell lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243290	SRR1012317	N/A	N/A	N/A	N/A	N/A	N/A	N/A	follicular lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243308	SRR1012335	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue	N/A	peripheral blood	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE51359	GSM1243295	SRR1012322	N/A	N/A	N/A	N/A	N/A	N/A	N/A	follicular lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243297	SRR1012324	N/A	N/A	N/A	N/A	N/A	N/A	N/A	diffuse large B-cell lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243307	SRR1012334	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue	N/A	peripheral blood	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE51359	GSM1243291	SRR1012318	N/A	N/A	N/A	N/A	N/A	N/A	N/A	diffuse large B-cell lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243305	SRR1012332	N/A	N/A	N/A	N/A	N/A	N/A	N/A	diffuse large B-cell lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243294	SRR1012321	N/A	N/A	N/A	N/A	N/A	N/A	N/A	follicular lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243293	SRR1012320	N/A	N/A	N/A	N/A	N/A	N/A	N/A	follicular lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243304	SRR1012331	N/A	N/A	N/A	N/A	N/A	N/A	N/A	diffuse large B-cell lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE51359	GSM1243303	SRR1012330	N/A	N/A	N/A	N/A	N/A	N/A	N/A	diffuse large B-cell lymphoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE53600	GSM1296630	SRR1057530	N/A	N/A	N/A	N/A	N/A	N/A	MS-1	Merkel cell carcinoma	N/A	N/A	disease+tissue	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE53600	GSM1296624	SRR1057524	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue	N/A	lymph node	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE53600	GSM1296628	SRR1057528	N/A	N/A	N/A	N/A	N/A	N/A	N/A	basal cell carcinoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE53600	GSM1296623	SRR1057523	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE53600	GSM1296629	SRR1057529	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE53600	GSM1296625	SRR1057525	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE53600	GSM1296626	SRR1057526	N/A	N/A	N/A	N/A	N/A	N/A	N/A	squamous cell carcinoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE53600	GSM1296627	SRR1057527	N/A	N/A	N/A	N/A	N/A	N/A	N/A	melanoma	N/A	N/A	disease+tissue	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56414	GSM1361098	SRR1211231	N/A	N/A	diseased tissue	N/A	female organism	27	N/A	endometriosis	N/A	N/A	tissue+tissue phenotype	N/A	peritoneum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56414	GSM1361100	SRR1211233	N/A	N/A	diseased tissue	N/A	female organism	27	N/A	endometriosis	N/A	N/A	tissue+tissue phenotype	N/A	peritoneum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56414	GSM1361092	SRR1211225	N/A	N/A	diseased tissue	N/A	female organism	28	N/A	endometriosis	N/A	N/A	tissue+tissue phenotype	N/A	peritoneum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56414	GSM1361095	SRR1211228	N/A	N/A	healthy tissue	N/A	female organism	27	N/A	endometriosis	N/A	N/A	tissue+tissue phenotype	N/A	uterine endometrium	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56414	GSM1361096	SRR1211229	N/A	N/A	diseased tissue	N/A	female organism	27	N/A	endometriosis	N/A	N/A	tissue+tissue phenotype	N/A	peritoneum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56414	GSM1361099	SRR1211232	N/A	N/A	adjacent healthy tissue	N/A	female organism	27	N/A	endometriosis	N/A	N/A	tissue+tissue phenotype	N/A	peritoneum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56414	GSM1361097	SRR1211230	N/A	N/A	adjacent healthy tissue	N/A	female organism	27	N/A	endometriosis	N/A	N/A	tissue+tissue phenotype	N/A	peritoneum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56414	GSM1361094	SRR1211227	N/A	N/A	diseased tissue	N/A	female organism	28	N/A	endometriosis	N/A	N/A	tissue+tissue phenotype	N/A	peritoneum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56414	GSM1361093	SRR1211226	N/A	N/A	adjacent healthy tissue	N/A	female organism	28	N/A	endometriosis	N/A	N/A	tissue+tissue phenotype	N/A	peritoneum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56414	GSM1361101	SRR1211234	N/A	N/A	adjacent healthy tissue	N/A	female organism	27	N/A	endometriosis	N/A	N/A	tissue+tissue phenotype	N/A	peritoneum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56414	GSM1361091	SRR1211224	N/A	N/A	healthy tissue	N/A	female organism	28	N/A	endometriosis	N/A	N/A	tissue+tissue phenotype	N/A	uterine endometrium	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56686	GSM1366854	SRR1232072	N/A	N/A	N/A	N/A	male organism	58.5	N/A	prostate cancer	N/A	N/A	disease	N/A	semen	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE56686	GSM1366855	SRR1232073	N/A	N/A	N/A	N/A	male organism	62.3	N/A	healthy	N/A	N/A	disease	N/A	semen	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372943	SRR1259228	N/A	N/A	healthy tissue	N/A	male organism	56	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372918	SRR1259203	N/A	N/A	diseased tissue	N/A	male organism	56	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372948	SRR1259233	N/A	N/A	diseased tissue	N/A	N/A	25	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372951	SRR1259236	N/A	N/A	healthy tissue	N/A	N/A	69	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372937	SRR1259222	N/A	N/A	healthy tissue	N/A	N/A	25	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372939	SRR1259224	N/A	N/A	healthy tissue	N/A	N/A	69	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372922	SRR1259207	N/A	N/A	diseased tissue	N/A	male organism	63	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372924	SRR1259209	N/A	N/A	diseased tissue	N/A	N/A	25	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372949	SRR1259234	N/A	N/A	healthy tissue	N/A	N/A	25	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372936	SRR1259221	N/A	N/A	diseased tissue	N/A	N/A	25	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372942	SRR1259227	N/A	N/A	diseased tissue	N/A	male organism	56	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372917	SRR1259202	N/A	N/A	healthy tissue	N/A	female organism	52	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372934	SRR1259219	N/A	N/A	diseased tissue	N/A	male organism	63	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372944	SRR1259229	N/A	N/A	diseased tissue	N/A	male organism	62	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372947	SRR1259232	N/A	N/A	healthy tissue	N/A	male organism	63	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372919	SRR1259204	N/A	N/A	healthy tissue	N/A	male organism	56	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372920	SRR1259205	N/A	N/A	diseased tissue	N/A	male organism	62	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372941	SRR1259226	N/A	N/A	healthy tissue	N/A	female organism	52	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372931	SRR1259216	N/A	N/A	healthy tissue	N/A	male organism	56	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372925	SRR1259210	N/A	N/A	healthy tissue	N/A	N/A	25	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372930	SRR1259215	N/A	N/A	diseased tissue	N/A	male organism	56	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372928	SRR1259213	N/A	N/A	diseased tissue	N/A	female organism	52	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372929	SRR1259214	N/A	N/A	healthy tissue	N/A	female organism	52	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372950	SRR1259235	N/A	N/A	diseased tissue	N/A	N/A	69	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372946	SRR1259231	N/A	N/A	diseased tissue	N/A	male organism	63	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372921	SRR1259206	N/A	N/A	healthy tissue	N/A	male organism	62	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372938	SRR1259223	N/A	N/A	diseased tissue	N/A	N/A	69	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372927	SRR1259212	N/A	N/A	healthy tissue	N/A	N/A	69	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372916	SRR1259201	N/A	N/A	diseased tissue	N/A	female organism	52	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372926	SRR1259211	N/A	N/A	diseased tissue	N/A	N/A	69	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372935	SRR1259220	N/A	N/A	healthy tissue	N/A	male organism	63	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372933	SRR1259218	N/A	N/A	healthy tissue	N/A	male organism	62	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372923	SRR1259208	N/A	N/A	healthy tissue	N/A	male organism	63	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	epidermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372940	SRR1259225	N/A	N/A	diseased tissue	N/A	female organism	52	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372932	SRR1259217	N/A	N/A	diseased tissue	N/A	male organism	62	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	dermis	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE57012	GSM1372945	SRR1259230	N/A	N/A	healthy tissue	N/A	male organism	62	N/A	psoriasis	N/A	N/A	tissue+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE59418	GSM1436626	SRR1515120	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease	N/A	blood serum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE59418	GSM1436627	SRR1515121	N/A	N/A	N/A	N/A	N/A	N/A	N/A	liver cirrhosis	N/A	N/A	disease	N/A	blood serum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE59418	GSM1436628	SRR1515122	N/A	N/A	N/A	N/A	N/A	N/A	N/A	hepatocellular carcinoma	N/A	N/A	disease	N/A	blood serum	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE61165	GSM1498847	SRR1566103	N/A	N/A	N/A	N/A	female organism	N/A	N/A	healthy	N/A	N/A	disease	N/A	breast epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE61165	GSM1498848	SRR1566104	N/A	N/A	N/A	N/A	female organism	N/A	N/A	triple-receptor negative breast cancer	N/A	N/A	disease	N/A	breast epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE62809	GSM1533724	SRR1634385	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Low Grade Intraepithelial Neoplasia	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533726	SRR1634389	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533727	SRR1634391	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Mild Dysplasia	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533728	SRR1634393	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	mouth floor	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533721	SRR1634380	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	gingiva	N/A	epithelial hyperplasia	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533727	SRR1634392	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Mild Dysplasia	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533723	SRR1634384	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533725	SRR1634388	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533722	SRR1634382	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	lip	N/A	epithelial hyperplasia	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533725	SRR1634387	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533729	SRR1634396	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	gingiva	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533726	SRR1634390	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533731	SRR1634399	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533723	SRR1634383	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Atypia	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533722	SRR1634381	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	lip	N/A	epithelial hyperplasia	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533730	SRR1634398	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	epithelial hyperplasia	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533728	SRR1634394	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	mouth floor	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533729	SRR1634395	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	gingiva	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533724	SRR1634386	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Low Grade Intraepithelial Neoplasia	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533721	SRR1634379	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	gingiva	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE62809	GSM1533730	SRR1634397	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Oral leukoplakia	N/A	N/A	disease details+tissue	N/A	tongue	N/A	Hyperkeratosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538845	SRR1642946	N/A	N/A	diseased tissue	N/A	male organism	75	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Hepatic Infection	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538849	SRR1642950	N/A	N/A	diseased tissue	N/A	male organism	58	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538850	SRR1642951	N/A	N/A	adjacent healthy tissue	N/A	female organism	60	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538873	SRR1642974	N/A	N/A	diseased tissue	N/A	male organism	67	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538870	SRR1642971	N/A	N/A	adjacent healthy tissue	N/A	female organism	31	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538859	SRR1642960	N/A	N/A	diseased tissue	N/A	male organism	58	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538864	SRR1642965	N/A	N/A	adjacent healthy tissue	N/A	male organism	66	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538840	SRR1642941	N/A	N/A	adjacent healthy tissue	N/A	male organism	44	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538847	SRR1642948	N/A	N/A	diseased tissue	N/A	male organism	65	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538867	SRR1642968	N/A	N/A	diseased tissue	N/A	female organism	60	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538848	SRR1642949	N/A	N/A	adjacent healthy tissue	N/A	male organism	58	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538844	SRR1642945	N/A	N/A	adjacent healthy tissue	N/A	male organism	75	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Hepatic Infection	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538843	SRR1642944	N/A	N/A	N/A	N/A	male organism	51	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Hepatic Infection	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538861	SRR1642962	N/A	N/A	diseased tissue	N/A	male organism	61	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Hepatic Infection	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538841	SRR1642942	N/A	N/A	diseased tissue	N/A	male organism	44	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538863	SRR1642964	N/A	N/A	diseased tissue	N/A	male organism	65	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538853	SRR1642954	N/A	N/A	diseased tissue	N/A	male organism	77	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Hepatic Infection	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538868	SRR1642969	N/A	N/A	adjacent healthy tissue	N/A	male organism	65	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538846	SRR1642947	N/A	N/A	adjacent healthy tissue	N/A	male organism	65	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538871	SRR1642972	N/A	N/A	diseased tissue	N/A	female organism	31	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538872	SRR1642973	N/A	N/A	adjacent healthy tissue	N/A	male organism	67	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538842	SRR1642943	N/A	N/A	adjacent healthy tissue	N/A	male organism	52	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Hepatic Infection	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538854	SRR1642955	N/A	N/A	adjacent healthy tissue	N/A	male organism	72	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538852	SRR1642953	N/A	N/A	adjacent healthy tissue	N/A	male organism	77	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Hepatic Infection	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538851	SRR1642952	N/A	N/A	diseased tissue	N/A	female organism	60	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538862	SRR1642963	N/A	N/A	adjacent healthy tissue	N/A	male organism	65	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538866	SRR1642967	N/A	N/A	adjacent healthy tissue	N/A	female organism	60	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538855	SRR1642956	N/A	N/A	diseased tissue	N/A	male organism	72	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538856	SRR1642957	N/A	N/A	adjacent healthy tissue	N/A	male organism	55	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538865	SRR1642966	N/A	N/A	diseased tissue	N/A	male organism	66	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538860	SRR1642961	N/A	N/A	adjacent healthy tissue	N/A	male organism	61	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Hepatic Infection	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538858	SRR1642959	N/A	N/A	adjacent healthy tissue	N/A	male organism	58	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538869	SRR1642970	N/A	N/A	diseased tissue	N/A	male organism	65	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63046	GSM1538857	SRR1642958	N/A	N/A	diseased tissue	N/A	male organism	55	N/A	hepatocellular carcinoma	N/A	N/A	tissue phenotype	N/A	liver	N/A	Cirrhosis	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551183	SRR1658355	N/A	N/A	N/A	N/A	male organism	90	N/A	healthy	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551180	SRR1658352	N/A	N/A	N/A	N/A	female organism	93	N/A	tangle predominant dementia	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551177	SRR1658349	N/A	N/A	N/A	N/A	male organism	86	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551179	SRR1658351	N/A	N/A	N/A	N/A	male organism	98	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551185	SRR1658357	N/A	N/A	N/A	N/A	male organism	92	N/A	healthy	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551173	SRR1658345	N/A	N/A	N/A	N/A	female organism	82	N/A	healthy	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551176	SRR1658348	N/A	N/A	N/A	N/A	female organism	91	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551188	SRR1658360	N/A	N/A	N/A	N/A	female organism	85	N/A	healthy	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551186	SRR1658358	N/A	N/A	N/A	N/A	female organism	96	N/A	tangle predominant dementia	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551181	SRR1658353	N/A	N/A	N/A	N/A	female organism	90	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551184	SRR1658356	N/A	N/A	N/A	N/A	male organism	93	N/A	healthy	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551187	SRR1658359	N/A	N/A	N/A	N/A	female organism	84	N/A	healthy	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551178	SRR1658350	N/A	N/A	N/A	N/A	female organism	90	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551174	SRR1658346	N/A	N/A	N/A	N/A	male organism	94	N/A	healthy	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551182	SRR1658354	N/A	N/A	N/A	N/A	female organism	88	N/A	tangle predominant dementia	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE63501	GSM1551175	SRR1658347	N/A	N/A	N/A	N/A	female organism	92	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	brain	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585428	SRR1759251	N/A	N/A	N/A	N/A	male organism	48	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585438	SRR1759261	N/A	N/A	N/A	N/A	male organism	54	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585452	SRR1759275	N/A	N/A	N/A	N/A	male organism	49	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	Asymptomatic Diseases	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585392	SRR1759215	N/A	N/A	N/A	N/A	male organism	97	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585440	SRR1759263	N/A	N/A	N/A	N/A	male organism	61	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585418	SRR1759241	N/A	N/A	N/A	N/A	male organism	44	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585403	SRR1759226	N/A	N/A	N/A	N/A	male organism	70	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585394	SRR1759217	N/A	N/A	N/A	N/A	male organism	91	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585420	SRR1759243	N/A	N/A	N/A	N/A	male organism	80	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585412	SRR1759235	N/A	N/A	N/A	N/A	male organism	53	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585425	SRR1759248	N/A	N/A	N/A	N/A	male organism	55	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585430	SRR1759253	N/A	N/A	N/A	N/A	male organism	72	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585429	SRR1759252	N/A	N/A	N/A	N/A	male organism	40	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585436	SRR1759259	N/A	N/A	N/A	N/A	male organism	48	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585423	SRR1759246	N/A	N/A	N/A	N/A	male organism	68	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585424	SRR1759247	N/A	N/A	N/A	N/A	male organism	64	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585400	SRR1759223	N/A	N/A	N/A	N/A	male organism	79	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585414	SRR1759237	N/A	N/A	N/A	N/A	male organism	43	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585419	SRR1759242	N/A	N/A	N/A	N/A	male organism	57	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585415	SRR1759238	N/A	N/A	N/A	N/A	female organism	71	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585397	SRR1759220	N/A	N/A	N/A	N/A	male organism	63	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585426	SRR1759249	N/A	N/A	N/A	N/A	male organism	69	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585432	SRR1759255	N/A	N/A	N/A	N/A	male organism	68	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585390	SRR1759213	N/A	N/A	N/A	N/A	male organism	91	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585401	SRR1759224	N/A	N/A	N/A	N/A	male organism	61	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585389	SRR1759212	N/A	N/A	N/A	N/A	male organism	73	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585447	SRR1759270	N/A	N/A	N/A	N/A	male organism	79	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585450	SRR1759273	N/A	N/A	N/A	N/A	male organism	53	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585421	SRR1759244	N/A	N/A	N/A	N/A	female organism	75	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585391	SRR1759214	N/A	N/A	N/A	N/A	male organism	82	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585442	SRR1759265	N/A	N/A	N/A	N/A	male organism	69	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585431	SRR1759254	N/A	N/A	N/A	N/A	male organism	43	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585433	SRR1759256	N/A	N/A	N/A	N/A	male organism	59	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585444	SRR1759267	N/A	N/A	N/A	N/A	male organism	55	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585434	SRR1759257	N/A	N/A	N/A	N/A	male organism	68	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585408	SRR1759231	N/A	N/A	N/A	N/A	male organism	62	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585404	SRR1759227	N/A	N/A	N/A	N/A	male organism	66	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585439	SRR1759262	N/A	N/A	N/A	N/A	male organism	68	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585427	SRR1759250	N/A	N/A	N/A	N/A	male organism	71	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585402	SRR1759225	N/A	N/A	N/A	N/A	male organism	58	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585446	SRR1759269	N/A	N/A	N/A	N/A	male organism	51	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585449	SRR1759272	N/A	N/A	N/A	N/A	male organism	75	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585407	SRR1759230	N/A	N/A	N/A	N/A	male organism	61	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585437	SRR1759260	N/A	N/A	N/A	N/A	male organism	68	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585435	SRR1759258	N/A	N/A	N/A	N/A	male organism	57	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585445	SRR1759268	N/A	N/A	N/A	N/A	male organism	50	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585416	SRR1759239	N/A	N/A	N/A	N/A	male organism	46	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585422	SRR1759245	N/A	N/A	N/A	N/A	female organism	76	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585409	SRR1759232	N/A	N/A	N/A	N/A	male organism	69	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585406	SRR1759229	N/A	N/A	N/A	N/A	male organism	76	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585410	SRR1759233	N/A	N/A	N/A	N/A	male organism	61	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585398	SRR1759221	N/A	N/A	N/A	N/A	male organism	66	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585411	SRR1759234	N/A	N/A	N/A	N/A	male organism	93	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585405	SRR1759228	N/A	N/A	N/A	N/A	male organism	60	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585417	SRR1759240	N/A	N/A	N/A	N/A	male organism	40	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585399	SRR1759222	N/A	N/A	N/A	N/A	male organism	69	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585448	SRR1759271	N/A	N/A	N/A	N/A	male organism	50	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585395	SRR1759218	N/A	N/A	N/A	N/A	male organism	81	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585443	SRR1759266	N/A	N/A	N/A	N/A	female organism	68	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585396	SRR1759219	N/A	N/A	N/A	N/A	male organism	79	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585441	SRR1759264	N/A	N/A	N/A	N/A	male organism	48	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585451	SRR1759274	N/A	N/A	N/A	N/A	female organism	86	N/A	Huntington's disease	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	Asymptomatic Diseases	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585413	SRR1759236	N/A	N/A	N/A	N/A	male organism	57	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE64977	GSM1585393	SRR1759216	N/A	N/A	N/A	N/A	male organism	86	N/A	healthy	N/A	N/A	disease+disease details	N/A	prefrontal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE65367	GSM1593868	SRR1777157	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	schizophrenia	N/A	N/A	disease	N/A	N/A	N/A	22q11.2 deletion syndrome	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593878	SRR1777167	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	healthy	N/A	N/A	disease	N/A	N/A	N/A	N/A	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593867	SRR1777156	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	schizophrenia	N/A	N/A	disease	N/A	N/A	N/A	22q11.2 deletion syndrome	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593875	SRR1777164	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	healthy	N/A	N/A	disease	N/A	N/A	N/A	N/A	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593865	SRR1777154	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	schizophrenia	N/A	N/A	disease	N/A	N/A	N/A	22q11.2 deletion syndrome	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593873	SRR1777162	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	healthy	N/A	N/A	disease	N/A	N/A	N/A	N/A	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593879	SRR1777168	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	healthy	N/A	N/A	disease	N/A	N/A	N/A	N/A	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593871	SRR1777160	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	schizophrenia	N/A	N/A	disease	N/A	N/A	N/A	22q11.2 deletion syndrome	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593870	SRR1777159	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	schizophrenia	N/A	N/A	disease	N/A	N/A	N/A	22q11.2 deletion syndrome	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593876	SRR1777165	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	healthy	N/A	N/A	disease	N/A	N/A	N/A	N/A	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593872	SRR1777161	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	healthy	N/A	N/A	disease	N/A	N/A	N/A	N/A	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593866	SRR1777155	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	schizophrenia	N/A	N/A	disease	N/A	N/A	N/A	22q11.2 deletion syndrome	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593874	SRR1777163	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	healthy	N/A	N/A	disease	N/A	N/A	N/A	N/A	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593869	SRR1777158	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	schizophrenia	N/A	N/A	disease	N/A	N/A	N/A	22q11.2 deletion syndrome	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593880	SRR1777169	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	healthy	N/A	N/A	disease	N/A	N/A	N/A	N/A	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE65367	GSM1593877	SRR1777166	N/A	N/A	N/A	N/A	N/A	N/A	human induced pluripotent stem cell line cell	healthy	N/A	N/A	disease	N/A	N/A	N/A	N/A	N/A	N/A	pluripotent stem cell	N/A	N/A
+GSE69837	GSM1709849	SRR2061946	N/A	N/A	N/A	N/A	N/A	N/A	HCjE	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497P-	N/A	N/A	N/A	N/A	conjunctival epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709858	SRR2061955	N/A	N/A	N/A	N/A	N/A	N/A	HEp-2	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497P-	N/A	N/A	N/A	N/A	cervical epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709851	SRR2061948	N/A	N/A	N/A	N/A	N/A	N/A	HCjE	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497	N/A	N/A	N/A	N/A	conjunctival epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709846	SRR2061943	N/A	N/A	N/A	N/A	N/A	N/A	HCjE	healthy	N/A	N/A	disease+cell line+virus	N/A	N/A	N/A	N/A	N/A	conjunctival epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709842	SRR2061939	N/A	N/A	N/A	N/A	male organism	5	N/A	healthy	N/A	N/A	disease+cell line+virus	N/A	conjunctival epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE69837	GSM1709834	SRR2061931	N/A	N/A	N/A	N/A	female organism	3	N/A	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis	conjunctival epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE69837	GSM1709839	SRR2061936	N/A	N/A	N/A	N/A	female organism	7	N/A	healthy	N/A	N/A	disease+cell line+virus	N/A	conjunctival epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE69837	GSM1709855	SRR2061952	N/A	N/A	N/A	N/A	N/A	N/A	HEp-2	carcinoma	N/A	N/A	disease+cell line+virus	N/A	N/A	N/A	N/A	N/A	cervical epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709841	SRR2061938	N/A	N/A	N/A	N/A	male organism	5	N/A	healthy	N/A	N/A	disease+cell line+virus	N/A	conjunctival epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE69837	GSM1709845	SRR2061942	N/A	N/A	N/A	N/A	N/A	N/A	HCjE	healthy	N/A	N/A	disease+cell line+virus	N/A	N/A	N/A	N/A	N/A	conjunctival epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709837	SRR2061934	N/A	N/A	N/A	N/A	male organism	4	N/A	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis	conjunctival epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE69837	GSM1709848	SRR2061945	N/A	N/A	N/A	N/A	N/A	N/A	HCjE	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497P-	N/A	N/A	N/A	N/A	conjunctival epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709854	SRR2061951	N/A	N/A	N/A	N/A	N/A	N/A	HEp-2	carcinoma	N/A	N/A	disease+cell line+virus	N/A	N/A	N/A	N/A	N/A	cervical epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709835	SRR2061932	N/A	N/A	N/A	N/A	male organism	10	N/A	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis	conjunctival epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE69837	GSM1709852	SRR2061949	N/A	N/A	N/A	N/A	N/A	N/A	HCjE	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497	N/A	N/A	N/A	N/A	conjunctival epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709857	SRR2061954	N/A	N/A	N/A	N/A	N/A	N/A	HEp-2	carcinoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497P-	N/A	N/A	N/A	N/A	cervical epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709836	SRR2061933	N/A	N/A	N/A	N/A	male organism	8	N/A	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis	conjunctival epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE69837	GSM1709838	SRR2061935	N/A	N/A	N/A	N/A	female organism	6	N/A	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis	conjunctival epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE69837	GSM1709840	SRR2061937	N/A	N/A	N/A	N/A	female organism	9	N/A	healthy	N/A	N/A	disease+cell line+virus	N/A	conjunctival epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE69837	GSM1709844	SRR2061941	N/A	N/A	N/A	N/A	N/A	N/A	HCjE	healthy	N/A	N/A	disease+cell line+virus	N/A	N/A	N/A	N/A	N/A	conjunctival epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709860	SRR2061957	N/A	N/A	N/A	N/A	N/A	N/A	HEp-2	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497	N/A	N/A	N/A	N/A	cervical epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709856	SRR2061953	N/A	N/A	N/A	N/A	N/A	N/A	HEp-2	carcinoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497P-	N/A	N/A	N/A	N/A	cervical epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709853	SRR2061950	N/A	N/A	N/A	N/A	N/A	N/A	HEp-2	carcinoma	N/A	N/A	disease+cell line+virus	N/A	N/A	N/A	N/A	N/A	cervical epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709850	SRR2061947	N/A	N/A	N/A	N/A	N/A	N/A	HCjE	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497	N/A	N/A	N/A	N/A	conjunctival epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709843	SRR2061940	N/A	N/A	N/A	N/A	female organism	6	N/A	healthy	N/A	N/A	disease+cell line+virus	N/A	conjunctival epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE69837	GSM1709861	SRR2061958	N/A	N/A	N/A	N/A	N/A	N/A	HEp-2	carcinoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497	N/A	N/A	N/A	N/A	cervical epithelium	epithelial cell	N/A	N/A
+GSE69837	GSM1709859	SRR2061956	N/A	N/A	N/A	N/A	N/A	N/A	HEp-2	carcinoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497	cervical epithelium	N/A	N/A	N/A	N/A	epithelial cell	N/A	N/A
+GSE69837	GSM1709847	SRR2061944	N/A	N/A	N/A	N/A	N/A	N/A	HCjE	trachoma	N/A	N/A	disease+cell line+virus	Chlamydia trachomatis A2497P-	N/A	N/A	N/A	N/A	conjunctival epithelium	epithelial cell	N/A	N/A
+GSE71008	GSM1825239	SRR2105469	N/A	N/A	N/A	N/A	female organism	66	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825089	SRR2105169	N/A	N/A	N/A	N/A	female organism	53	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825089	SRR2105170	N/A	N/A	N/A	N/A	female organism	53	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825232	SRR2105455	N/A	N/A	N/A	N/A	male organism	61	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825129	SRR2105249	N/A	N/A	N/A	N/A	female organism	51	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825221	SRR2105433	N/A	N/A	N/A	N/A	male organism	62	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825238	SRR2105468	N/A	N/A	N/A	N/A	female organism	80	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825228	SRR2105448	N/A	N/A	N/A	N/A	male organism	27	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825255	SRR2105501	N/A	N/A	N/A	N/A	male organism	67	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825200	SRR2105391	N/A	N/A	N/A	N/A	male organism	65	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825176	SRR2105344	N/A	N/A	N/A	N/A	male organism	59	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825118	SRR2105228	N/A	N/A	N/A	N/A	male organism	56	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825124	SRR2105240	N/A	N/A	N/A	N/A	female organism	65	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825220	SRR2105431	N/A	N/A	N/A	N/A	male organism	74	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825135	SRR2105261	N/A	N/A	N/A	N/A	male organism	73	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825188	SRR2105367	N/A	N/A	N/A	N/A	female organism	16	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825087	SRR2105166	N/A	N/A	N/A	N/A	female organism	64	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825093	SRR2105178	N/A	N/A	N/A	N/A	female organism	36	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825174	SRR2105340	N/A	N/A	N/A	N/A	male organism	73	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825083	SRR2105158	N/A	N/A	N/A	N/A	female organism	26	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825110	SRR2105211	N/A	N/A	N/A	N/A	female organism	74	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825081	SRR2105153	N/A	N/A	N/A	N/A	male organism	57	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825167	SRR2105326	N/A	N/A	N/A	N/A	female organism	74	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825252	SRR2105496	N/A	N/A	N/A	N/A	female organism	43	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825193	SRR2105378	N/A	N/A	N/A	N/A	male organism	71	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825084	SRR2105160	N/A	N/A	N/A	N/A	female organism	68	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825213	SRR2105418	N/A	N/A	N/A	N/A	female organism	48	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825120	SRR2105231	N/A	N/A	N/A	N/A	female organism	43	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825124	SRR2105239	N/A	N/A	N/A	N/A	female organism	65	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825101	SRR2105193	N/A	N/A	N/A	N/A	male organism	55	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825098	SRR2105187	N/A	N/A	N/A	N/A	female organism	30	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825101	SRR2105194	N/A	N/A	N/A	N/A	male organism	55	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825238	SRR2105467	N/A	N/A	N/A	N/A	female organism	80	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825088	SRR2105167	N/A	N/A	N/A	N/A	female organism	62	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825183	SRR2105358	N/A	N/A	N/A	N/A	male organism	79	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825251	SRR2105493	N/A	N/A	N/A	N/A	female organism	50	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825072	SRR2105135	N/A	N/A	N/A	N/A	male organism	62	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825256	SRR2105503	N/A	N/A	N/A	N/A	male organism	68	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825134	SRR2105259	N/A	N/A	N/A	N/A	male organism	86	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825243	SRR2105477	N/A	N/A	N/A	N/A	male organism	47	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825218	SRR2105428	N/A	N/A	N/A	N/A	female organism	45	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825229	SRR2105450	N/A	N/A	N/A	N/A	male organism	30	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825086	SRR2105163	N/A	N/A	N/A	N/A	female organism	76	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825204	SRR2105399	N/A	N/A	N/A	N/A	male organism	30	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825162	SRR2105316	N/A	N/A	N/A	N/A	male organism	68	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825098	SRR2105188	N/A	N/A	N/A	N/A	female organism	30	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825092	SRR2105176	N/A	N/A	N/A	N/A	female organism	56	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825076	SRR2105144	N/A	N/A	N/A	N/A	female organism	68	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825206	SRR2105404	N/A	N/A	N/A	N/A	male organism	78	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825116	SRR2105224	N/A	N/A	N/A	N/A	female organism	54	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825223	SRR2105438	N/A	N/A	N/A	N/A	male organism	73	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825084	SRR2105159	N/A	N/A	N/A	N/A	female organism	68	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825224	SRR2105439	N/A	N/A	N/A	N/A	male organism	67	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825258	SRR2105507	N/A	N/A	N/A	N/A	male organism	59	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825115	SRR2105221	N/A	N/A	N/A	N/A	female organism	32	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825102	SRR2105196	N/A	N/A	N/A	N/A	male organism	77	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825103	SRR2105197	N/A	N/A	N/A	N/A	male organism	68	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825144	SRR2105279	N/A	N/A	N/A	N/A	male organism	39	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825160	SRR2105312	N/A	N/A	N/A	N/A	male organism	71	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825250	SRR2105492	N/A	N/A	N/A	N/A	female organism	57	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825097	SRR2105185	N/A	N/A	N/A	N/A	female organism	39	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825130	SRR2105251	N/A	N/A	N/A	N/A	female organism	38	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825255	SRR2105502	N/A	N/A	N/A	N/A	male organism	67	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825158	SRR2105308	N/A	N/A	N/A	N/A	male organism	67	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825234	SRR2105459	N/A	N/A	N/A	N/A	male organism	66	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825195	SRR2105381	N/A	N/A	N/A	N/A	female organism	53	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825219	SRR2105430	N/A	N/A	N/A	N/A	female organism	19	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825107	SRR2105206	N/A	N/A	N/A	N/A	male organism	42	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825173	SRR2105338	N/A	N/A	N/A	N/A	male organism	46	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825247	SRR2105485	N/A	N/A	N/A	N/A	female organism	82	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825133	SRR2105257	N/A	N/A	N/A	N/A	male organism	67	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825167	SRR2105325	N/A	N/A	N/A	N/A	female organism	74	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825186	SRR2105364	N/A	N/A	N/A	N/A	male organism	68	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825203	SRR2105397	N/A	N/A	N/A	N/A	male organism	39	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825213	SRR2105417	N/A	N/A	N/A	N/A	female organism	48	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825143	SRR2105278	N/A	N/A	N/A	N/A	male organism	42	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825075	SRR2105141	N/A	N/A	N/A	N/A	male organism	42	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825113	SRR2105217	N/A	N/A	N/A	N/A	female organism	52	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825070	SRR2105131	N/A	N/A	N/A	N/A	male organism	88	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825144	SRR2105280	N/A	N/A	N/A	N/A	male organism	39	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825170	SRR2105331	N/A	N/A	N/A	N/A	female organism	55	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825216	SRR2105423	N/A	N/A	N/A	N/A	female organism	66	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825113	SRR2105218	N/A	N/A	N/A	N/A	female organism	52	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825239	SRR2105470	N/A	N/A	N/A	N/A	female organism	66	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825130	SRR2105252	N/A	N/A	N/A	N/A	female organism	38	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825170	SRR2105332	N/A	N/A	N/A	N/A	female organism	55	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825093	SRR2105177	N/A	N/A	N/A	N/A	female organism	36	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825109	SRR2105209	N/A	N/A	N/A	N/A	female organism	50	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825178	SRR2105347	N/A	N/A	N/A	N/A	male organism	40	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825246	SRR2105484	N/A	N/A	N/A	N/A	female organism	52	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825105	SRR2105202	N/A	N/A	N/A	N/A	male organism	57	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825080	SRR2105151	N/A	N/A	N/A	N/A	female organism	57	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825155	SRR2105302	N/A	N/A	N/A	N/A	male organism	39	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825119	SRR2105230	N/A	N/A	N/A	N/A	male organism	48	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825078	SRR2105148	N/A	N/A	N/A	N/A	male organism	81	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825222	SRR2105435	N/A	N/A	N/A	N/A	male organism	87	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825215	SRR2105421	N/A	N/A	N/A	N/A	female organism	69	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825143	SRR2105277	N/A	N/A	N/A	N/A	male organism	42	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825253	SRR2105498	N/A	N/A	N/A	N/A	male organism	29	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825230	SRR2105452	N/A	N/A	N/A	N/A	female organism	80	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825140	SRR2105272	N/A	N/A	N/A	N/A	male organism	50	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825114	SRR2105219	N/A	N/A	N/A	N/A	female organism	39	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825164	SRR2105320	N/A	N/A	N/A	N/A	female organism	77	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825237	SRR2105465	N/A	N/A	N/A	N/A	male organism	54	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825245	SRR2105482	N/A	N/A	N/A	N/A	female organism	76	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825099	SRR2105189	N/A	N/A	N/A	N/A	female organism	27	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825090	SRR2105172	N/A	N/A	N/A	N/A	female organism	42	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825138	SRR2105267	N/A	N/A	N/A	N/A	male organism	64	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825120	SRR2105232	N/A	N/A	N/A	N/A	female organism	43	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825096	SRR2105184	N/A	N/A	N/A	N/A	female organism	47	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825163	SRR2105318	N/A	N/A	N/A	N/A	male organism	56	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825185	SRR2105361	N/A	N/A	N/A	N/A	male organism	69	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825194	SRR2105379	N/A	N/A	N/A	N/A	female organism	64	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825149	SRR2105290	N/A	N/A	N/A	N/A	male organism	51	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825125	SRR2105241	N/A	N/A	N/A	N/A	female organism	50	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825247	SRR2105486	N/A	N/A	N/A	N/A	female organism	82	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825153	SRR2105297	N/A	N/A	N/A	N/A	male organism	54	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825225	SRR2105442	N/A	N/A	N/A	N/A	male organism	65	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825111	SRR2105213	N/A	N/A	N/A	N/A	female organism	63	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825145	SRR2105281	N/A	N/A	N/A	N/A	male organism	34	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825214	SRR2105419	N/A	N/A	N/A	N/A	female organism	87	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825079	SRR2105149	N/A	N/A	N/A	N/A	male organism	68	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825242	SRR2105476	N/A	N/A	N/A	N/A	female organism	44	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825090	SRR2105171	N/A	N/A	N/A	N/A	female organism	42	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825183	SRR2105357	N/A	N/A	N/A	N/A	male organism	79	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825117	SRR2105226	N/A	N/A	N/A	N/A	female organism	34	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825131	SRR2105254	N/A	N/A	N/A	N/A	female organism	28	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825149	SRR2105289	N/A	N/A	N/A	N/A	male organism	51	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825125	SRR2105242	N/A	N/A	N/A	N/A	female organism	50	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825100	SRR2105191	N/A	N/A	N/A	N/A	male organism	68	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825236	SRR2105463	N/A	N/A	N/A	N/A	male organism	82	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825207	SRR2105405	N/A	N/A	N/A	N/A	male organism	61	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825259	SRR2105510	N/A	N/A	N/A	N/A	male organism	65	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825231	SRR2105453	N/A	N/A	N/A	N/A	male organism	78	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825177	SRR2105346	N/A	N/A	N/A	N/A	male organism	54	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825077	SRR2105145	N/A	N/A	N/A	N/A	female organism	50	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825100	SRR2105192	N/A	N/A	N/A	N/A	male organism	68	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825245	SRR2105481	N/A	N/A	N/A	N/A	female organism	76	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825182	SRR2105356	N/A	N/A	N/A	N/A	male organism	66	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825206	SRR2105403	N/A	N/A	N/A	N/A	male organism	78	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825073	SRR2105138	N/A	N/A	N/A	N/A	male organism	60	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825251	SRR2105494	N/A	N/A	N/A	N/A	female organism	50	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825248	SRR2105488	N/A	N/A	N/A	N/A	female organism	65	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825132	SRR2105256	N/A	N/A	N/A	N/A	male organism	78	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825103	SRR2105198	N/A	N/A	N/A	N/A	male organism	68	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825212	SRR2105415	N/A	N/A	N/A	N/A	female organism	77	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825233	SRR2105457	N/A	N/A	N/A	N/A	male organism	81	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825227	SRR2105445	N/A	N/A	N/A	N/A	male organism	42	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825194	SRR2105380	N/A	N/A	N/A	N/A	female organism	64	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825095	SRR2105182	N/A	N/A	N/A	N/A	female organism	51	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825218	SRR2105427	N/A	N/A	N/A	N/A	female organism	45	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825146	SRR2105284	N/A	N/A	N/A	N/A	male organism	24	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825128	SRR2105248	N/A	N/A	N/A	N/A	female organism	56	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825068	SRR2105127	N/A	N/A	N/A	N/A	male organism	76	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825151	SRR2105293	N/A	N/A	N/A	N/A	male organism	67	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825212	SRR2105416	N/A	N/A	N/A	N/A	female organism	77	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825148	SRR2105288	N/A	N/A	N/A	N/A	male organism	72	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825243	SRR2105478	N/A	N/A	N/A	N/A	male organism	47	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825102	SRR2105195	N/A	N/A	N/A	N/A	male organism	77	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825209	SRR2105409	N/A	N/A	N/A	N/A	male organism	70	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825147	SRR2105285	N/A	N/A	N/A	N/A	male organism	15	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825165	SRR2105321	N/A	N/A	N/A	N/A	female organism	61	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825161	SRR2105314	N/A	N/A	N/A	N/A	male organism	69	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825185	SRR2105362	N/A	N/A	N/A	N/A	male organism	69	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825107	SRR2105205	N/A	N/A	N/A	N/A	male organism	42	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825240	SRR2105471	N/A	N/A	N/A	N/A	male organism	69	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825205	SRR2105401	N/A	N/A	N/A	N/A	female organism	59	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825252	SRR2105495	N/A	N/A	N/A	N/A	female organism	43	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825082	SRR2105156	N/A	N/A	N/A	N/A	male organism	53	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825203	SRR2105398	N/A	N/A	N/A	N/A	male organism	39	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825069	SRR2105130	N/A	N/A	N/A	N/A	male organism	50	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825080	SRR2105152	N/A	N/A	N/A	N/A	female organism	57	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825138	SRR2105268	N/A	N/A	N/A	N/A	male organism	64	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825127	SRR2105246	N/A	N/A	N/A	N/A	female organism	62	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825229	SRR2105449	N/A	N/A	N/A	N/A	male organism	30	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825165	SRR2105322	N/A	N/A	N/A	N/A	female organism	61	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825241	SRR2105474	N/A	N/A	N/A	N/A	female organism	53	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825256	SRR2105504	N/A	N/A	N/A	N/A	male organism	68	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825175	SRR2105341	N/A	N/A	N/A	N/A	male organism	66	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825158	SRR2105307	N/A	N/A	N/A	N/A	male organism	67	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825180	SRR2105352	N/A	N/A	N/A	N/A	female organism	70	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825184	SRR2105360	N/A	N/A	N/A	N/A	male organism	71	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825105	SRR2105201	N/A	N/A	N/A	N/A	male organism	57	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825195	SRR2105382	N/A	N/A	N/A	N/A	female organism	53	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825071	SRR2105134	N/A	N/A	N/A	N/A	male organism	75	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825106	SRR2105204	N/A	N/A	N/A	N/A	male organism	52	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825197	SRR2105386	N/A	N/A	N/A	N/A	male organism	68	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825141	SRR2105274	N/A	N/A	N/A	N/A	male organism	29	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825259	SRR2105509	N/A	N/A	N/A	N/A	male organism	65	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825123	SRR2105238	N/A	N/A	N/A	N/A	female organism	24	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825156	SRR2105304	N/A	N/A	N/A	N/A	male organism	78	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825174	SRR2105339	N/A	N/A	N/A	N/A	male organism	73	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825223	SRR2105437	N/A	N/A	N/A	N/A	male organism	73	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825253	SRR2105497	N/A	N/A	N/A	N/A	male organism	29	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825258	SRR2105508	N/A	N/A	N/A	N/A	male organism	59	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825073	SRR2105137	N/A	N/A	N/A	N/A	male organism	60	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825226	SRR2105443	N/A	N/A	N/A	N/A	male organism	53	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825169	SRR2105330	N/A	N/A	N/A	N/A	female organism	67	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825187	SRR2105365	N/A	N/A	N/A	N/A	male organism	53	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825133	SRR2105258	N/A	N/A	N/A	N/A	male organism	67	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825108	SRR2105207	N/A	N/A	N/A	N/A	female organism	68	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825202	SRR2105396	N/A	N/A	N/A	N/A	male organism	52	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825096	SRR2105183	N/A	N/A	N/A	N/A	female organism	47	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825226	SRR2105444	N/A	N/A	N/A	N/A	male organism	53	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825157	SRR2105305	N/A	N/A	N/A	N/A	male organism	77	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825189	SRR2105369	N/A	N/A	N/A	N/A	male organism	76	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825197	SRR2105385	N/A	N/A	N/A	N/A	male organism	68	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825099	SRR2105190	N/A	N/A	N/A	N/A	female organism	27	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825139	SRR2105269	N/A	N/A	N/A	N/A	male organism	49	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825094	SRR2105180	N/A	N/A	N/A	N/A	female organism	71	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825211	SRR2105413	N/A	N/A	N/A	N/A	male organism	53	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825161	SRR2105313	N/A	N/A	N/A	N/A	male organism	69	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825074	SRR2105140	N/A	N/A	N/A	N/A	male organism	48	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825121	SRR2105233	N/A	N/A	N/A	N/A	male organism	36	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825171	SRR2105334	N/A	N/A	N/A	N/A	female organism	42	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825209	SRR2105410	N/A	N/A	N/A	N/A	male organism	70	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825198	SRR2105387	N/A	N/A	N/A	N/A	male organism	45	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825135	SRR2105262	N/A	N/A	N/A	N/A	male organism	73	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825208	SRR2105407	N/A	N/A	N/A	N/A	male organism	87	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825075	SRR2105142	N/A	N/A	N/A	N/A	male organism	42	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825097	SRR2105186	N/A	N/A	N/A	N/A	female organism	39	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825109	SRR2105210	N/A	N/A	N/A	N/A	female organism	50	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825128	SRR2105247	N/A	N/A	N/A	N/A	female organism	56	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825152	SRR2105295	N/A	N/A	N/A	N/A	male organism	60	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825179	SRR2105349	N/A	N/A	N/A	N/A	male organism	32	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825192	SRR2105375	N/A	N/A	N/A	N/A	female organism	73	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825104	SRR2105200	N/A	N/A	N/A	N/A	male organism	59	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825173	SRR2105337	N/A	N/A	N/A	N/A	male organism	46	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825191	SRR2105374	N/A	N/A	N/A	N/A	female organism	78	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825150	SRR2105291	N/A	N/A	N/A	N/A	male organism	79	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825136	SRR2105263	N/A	N/A	N/A	N/A	male organism	69	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825172	SRR2105336	N/A	N/A	N/A	N/A	male organism	69	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825069	SRR2105129	N/A	N/A	N/A	N/A	male organism	50	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825122	SRR2105235	N/A	N/A	N/A	N/A	male organism	27	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825187	SRR2105366	N/A	N/A	N/A	N/A	male organism	53	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825198	SRR2105388	N/A	N/A	N/A	N/A	male organism	45	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825087	SRR2105165	N/A	N/A	N/A	N/A	female organism	64	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825137	SRR2105265	N/A	N/A	N/A	N/A	male organism	69	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825126	SRR2105244	N/A	N/A	N/A	N/A	female organism	71	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825202	SRR2105395	N/A	N/A	N/A	N/A	male organism	52	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825142	SRR2105276	N/A	N/A	N/A	N/A	male organism	54	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825127	SRR2105245	N/A	N/A	N/A	N/A	female organism	62	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825168	SRR2105328	N/A	N/A	N/A	N/A	female organism	68	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825131	SRR2105253	N/A	N/A	N/A	N/A	female organism	28	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825200	SRR2105392	N/A	N/A	N/A	N/A	male organism	65	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825244	SRR2105480	N/A	N/A	N/A	N/A	male organism	23	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825162	SRR2105315	N/A	N/A	N/A	N/A	male organism	68	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825141	SRR2105273	N/A	N/A	N/A	N/A	male organism	29	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825152	SRR2105296	N/A	N/A	N/A	N/A	male organism	60	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825208	SRR2105408	N/A	N/A	N/A	N/A	male organism	87	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825215	SRR2105422	N/A	N/A	N/A	N/A	female organism	69	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825122	SRR2105236	N/A	N/A	N/A	N/A	male organism	27	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825129	SRR2105250	N/A	N/A	N/A	N/A	female organism	51	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825227	SRR2105446	N/A	N/A	N/A	N/A	male organism	42	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825254	SRR2105499	N/A	N/A	N/A	N/A	female organism	25	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825175	SRR2105342	N/A	N/A	N/A	N/A	male organism	66	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825241	SRR2105473	N/A	N/A	N/A	N/A	female organism	53	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825211	SRR2105414	N/A	N/A	N/A	N/A	male organism	53	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825139	SRR2105270	N/A	N/A	N/A	N/A	male organism	49	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825117	SRR2105225	N/A	N/A	N/A	N/A	female organism	34	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825150	SRR2105292	N/A	N/A	N/A	N/A	male organism	79	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825091	SRR2105173	N/A	N/A	N/A	N/A	female organism	32	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825210	SRR2105412	N/A	N/A	N/A	N/A	male organism	65	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825134	SRR2105260	N/A	N/A	N/A	N/A	male organism	86	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825074	SRR2105139	N/A	N/A	N/A	N/A	male organism	48	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825205	SRR2105402	N/A	N/A	N/A	N/A	female organism	59	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825189	SRR2105370	N/A	N/A	N/A	N/A	male organism	76	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825086	SRR2105164	N/A	N/A	N/A	N/A	female organism	76	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825146	SRR2105283	N/A	N/A	N/A	N/A	male organism	24	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825178	SRR2105348	N/A	N/A	N/A	N/A	male organism	40	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825228	SRR2105447	N/A	N/A	N/A	N/A	male organism	27	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825196	SRR2105383	N/A	N/A	N/A	N/A	male organism	49	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825217	SRR2105426	N/A	N/A	N/A	N/A	female organism	56	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825154	SRR2105300	N/A	N/A	N/A	N/A	male organism	45	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825121	SRR2105234	N/A	N/A	N/A	N/A	male organism	36	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825082	SRR2105155	N/A	N/A	N/A	N/A	male organism	53	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825078	SRR2105147	N/A	N/A	N/A	N/A	male organism	81	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825115	SRR2105222	N/A	N/A	N/A	N/A	female organism	32	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825151	SRR2105294	N/A	N/A	N/A	N/A	male organism	67	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825249	SRR2105490	N/A	N/A	N/A	N/A	female organism	59	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825216	SRR2105424	N/A	N/A	N/A	N/A	female organism	66	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825077	SRR2105146	N/A	N/A	N/A	N/A	female organism	50	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825254	SRR2105500	N/A	N/A	N/A	N/A	female organism	25	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825249	SRR2105489	N/A	N/A	N/A	N/A	female organism	59	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825132	SRR2105255	N/A	N/A	N/A	N/A	male organism	78	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825071	SRR2105133	N/A	N/A	N/A	N/A	male organism	75	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825204	SRR2105400	N/A	N/A	N/A	N/A	male organism	30	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825081	SRR2105154	N/A	N/A	N/A	N/A	male organism	57	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825172	SRR2105335	N/A	N/A	N/A	N/A	male organism	69	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825108	SRR2105208	N/A	N/A	N/A	N/A	female organism	68	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825104	SRR2105199	N/A	N/A	N/A	N/A	male organism	59	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825171	SRR2105333	N/A	N/A	N/A	N/A	female organism	42	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825248	SRR2105487	N/A	N/A	N/A	N/A	female organism	65	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825199	SRR2105390	N/A	N/A	N/A	N/A	male organism	73	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825123	SRR2105237	N/A	N/A	N/A	N/A	female organism	24	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825196	SRR2105384	N/A	N/A	N/A	N/A	male organism	49	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825201	SRR2105394	N/A	N/A	N/A	N/A	male organism	56	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825246	SRR2105483	N/A	N/A	N/A	N/A	female organism	52	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825164	SRR2105319	N/A	N/A	N/A	N/A	female organism	77	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825072	SRR2105136	N/A	N/A	N/A	N/A	male organism	62	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825231	SRR2105454	N/A	N/A	N/A	N/A	male organism	78	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825092	SRR2105175	N/A	N/A	N/A	N/A	female organism	56	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825222	SRR2105436	N/A	N/A	N/A	N/A	male organism	87	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825070	SRR2105132	N/A	N/A	N/A	N/A	male organism	88	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825114	SRR2105220	N/A	N/A	N/A	N/A	female organism	39	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825140	SRR2105271	N/A	N/A	N/A	N/A	male organism	50	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825137	SRR2105266	N/A	N/A	N/A	N/A	male organism	69	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825180	SRR2105351	N/A	N/A	N/A	N/A	female organism	70	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825156	SRR2105303	N/A	N/A	N/A	N/A	male organism	78	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825169	SRR2105329	N/A	N/A	N/A	N/A	female organism	67	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825126	SRR2105243	N/A	N/A	N/A	N/A	female organism	71	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825145	SRR2105282	N/A	N/A	N/A	N/A	male organism	34	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825179	SRR2105350	N/A	N/A	N/A	N/A	male organism	32	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825085	SRR2105161	N/A	N/A	N/A	N/A	female organism	50	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825159	SRR2105309	N/A	N/A	N/A	N/A	male organism	80	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825235	SRR2105461	N/A	N/A	N/A	N/A	male organism	50	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825154	SRR2105299	N/A	N/A	N/A	N/A	male organism	45	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825224	SRR2105440	N/A	N/A	N/A	N/A	male organism	67	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825088	SRR2105168	N/A	N/A	N/A	N/A	female organism	62	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825190	SRR2105372	N/A	N/A	N/A	N/A	male organism	63	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825085	SRR2105162	N/A	N/A	N/A	N/A	female organism	50	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825221	SRR2105434	N/A	N/A	N/A	N/A	male organism	62	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825142	SRR2105275	N/A	N/A	N/A	N/A	male organism	54	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825193	SRR2105377	N/A	N/A	N/A	N/A	male organism	71	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825118	SRR2105227	N/A	N/A	N/A	N/A	male organism	56	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825219	SRR2105429	N/A	N/A	N/A	N/A	female organism	19	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825166	SRR2105324	N/A	N/A	N/A	N/A	female organism	90	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825160	SRR2105311	N/A	N/A	N/A	N/A	male organism	71	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825076	SRR2105143	N/A	N/A	N/A	N/A	female organism	68	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825210	SRR2105411	N/A	N/A	N/A	N/A	male organism	65	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825242	SRR2105475	N/A	N/A	N/A	N/A	female organism	44	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825186	SRR2105363	N/A	N/A	N/A	N/A	male organism	68	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825214	SRR2105420	N/A	N/A	N/A	N/A	female organism	87	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825163	SRR2105317	N/A	N/A	N/A	N/A	male organism	56	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825257	SRR2105505	N/A	N/A	N/A	N/A	male organism	75	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825148	SRR2105287	N/A	N/A	N/A	N/A	male organism	72	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825166	SRR2105323	N/A	N/A	N/A	N/A	female organism	90	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825234	SRR2105460	N/A	N/A	N/A	N/A	male organism	66	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825091	SRR2105174	N/A	N/A	N/A	N/A	female organism	32	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825177	SRR2105345	N/A	N/A	N/A	N/A	male organism	54	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825112	SRR2105215	N/A	N/A	N/A	N/A	female organism	57	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825181	SRR2105354	N/A	N/A	N/A	N/A	male organism	76	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825083	SRR2105157	N/A	N/A	N/A	N/A	female organism	26	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825116	SRR2105223	N/A	N/A	N/A	N/A	female organism	54	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825079	SRR2105150	N/A	N/A	N/A	N/A	male organism	68	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825225	SRR2105441	N/A	N/A	N/A	N/A	male organism	65	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825236	SRR2105464	N/A	N/A	N/A	N/A	male organism	82	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825237	SRR2105466	N/A	N/A	N/A	N/A	male organism	54	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825155	SRR2105301	N/A	N/A	N/A	N/A	male organism	39	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825176	SRR2105343	N/A	N/A	N/A	N/A	male organism	59	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825240	SRR2105472	N/A	N/A	N/A	N/A	male organism	69	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825168	SRR2105327	N/A	N/A	N/A	N/A	female organism	68	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825182	SRR2105355	N/A	N/A	N/A	N/A	male organism	66	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825191	SRR2105373	N/A	N/A	N/A	N/A	female organism	78	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825257	SRR2105506	N/A	N/A	N/A	N/A	male organism	75	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825147	SRR2105286	N/A	N/A	N/A	N/A	male organism	15	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825153	SRR2105298	N/A	N/A	N/A	N/A	male organism	54	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825217	SRR2105425	N/A	N/A	N/A	N/A	female organism	56	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825201	SRR2105393	N/A	N/A	N/A	N/A	male organism	56	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825111	SRR2105214	N/A	N/A	N/A	N/A	female organism	63	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825068	SRR2105128	N/A	N/A	N/A	N/A	male organism	76	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825190	SRR2105371	N/A	N/A	N/A	N/A	male organism	63	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825159	SRR2105310	N/A	N/A	N/A	N/A	male organism	80	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825199	SRR2105389	N/A	N/A	N/A	N/A	male organism	73	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825184	SRR2105359	N/A	N/A	N/A	N/A	male organism	71	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825157	SRR2105306	N/A	N/A	N/A	N/A	male organism	77	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825119	SRR2105229	N/A	N/A	N/A	N/A	male organism	48	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825094	SRR2105179	N/A	N/A	N/A	N/A	female organism	71	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825110	SRR2105212	N/A	N/A	N/A	N/A	female organism	74	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825095	SRR2105181	N/A	N/A	N/A	N/A	female organism	51	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825207	SRR2105406	N/A	N/A	N/A	N/A	male organism	61	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825181	SRR2105353	N/A	N/A	N/A	N/A	male organism	76	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825136	SRR2105264	N/A	N/A	N/A	N/A	male organism	69	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825188	SRR2105368	N/A	N/A	N/A	N/A	female organism	16	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825232	SRR2105456	N/A	N/A	N/A	N/A	male organism	61	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825250	SRR2105491	N/A	N/A	N/A	N/A	female organism	57	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825112	SRR2105216	N/A	N/A	N/A	N/A	female organism	57	N/A	healthy	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825220	SRR2105432	N/A	N/A	N/A	N/A	male organism	74	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825233	SRR2105458	N/A	N/A	N/A	N/A	male organism	81	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825244	SRR2105479	N/A	N/A	N/A	N/A	male organism	23	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825106	SRR2105203	N/A	N/A	N/A	N/A	male organism	52	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825235	SRR2105462	N/A	N/A	N/A	N/A	male organism	50	N/A	prostate cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825192	SRR2105376	N/A	N/A	N/A	N/A	female organism	73	N/A	colorectal cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE71008	GSM1825230	SRR2105451	N/A	N/A	N/A	N/A	female organism	80	N/A	pancreatic cancer	N/A	N/A	disease	N/A	blood plasma	N/A	N/A	N/A	N/A	N/A	N/A	microvesicle
+GSE72193	GSM1857342	SRR2174533	21	N/A	N/A	N/A	male organism	40	N/A	N/A	N/A	3	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857326	SRR2174517	14	N/A	N/A	N/A	male organism	20	N/A	N/A	N/A	3	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857347	SRR2174538	14	N/A	N/A	N/A	male organism	20	N/A	N/A	N/A	120	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857329	SRR2174520	14	N/A	N/A	N/A	male organism	20	N/A	N/A	N/A	14	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857320	SRR2174511	12	N/A	N/A	N/A	male organism	44	N/A	N/A	N/A	14	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857331	SRR2174522	15	N/A	N/A	N/A	male organism	55	N/A	N/A	N/A	3	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857319	SRR2174510	12	N/A	N/A	N/A	male organism	44	N/A	N/A	N/A	3	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857336	SRR2174527	16	N/A	N/A	N/A	female organism	29	N/A	N/A	N/A	14	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857351	SRR2174542	jb	N/A	N/A	N/A	male organism	41	N/A	N/A	N/A	N/A	treatment+time	N/A	skin	Control	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857350	SRR2174541	tm	N/A	N/A	N/A	female organism	73	N/A	N/A	N/A	N/A	treatment+time	N/A	skin	Control	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857330	SRR2174521	15	N/A	N/A	N/A	male organism	55	N/A	N/A	N/A	3	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857324	SRR2174515	13	N/A	N/A	N/A	female organism	46	N/A	N/A	N/A	14	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857338	SRR2174529	20	N/A	N/A	N/A	male organism	43	N/A	N/A	N/A	3	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857343	SRR2174534	21	N/A	N/A	N/A	male organism	40	N/A	N/A	N/A	3	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857340	SRR2174531	20	N/A	N/A	N/A	male organism	43	N/A	N/A	N/A	14	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857349	SRR2174540	16	N/A	N/A	N/A	female organism	29	N/A	N/A	N/A	120	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857328	SRR2174519	14	N/A	N/A	N/A	male organism	20	N/A	N/A	N/A	14	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857325	SRR2174516	13	N/A	N/A	N/A	female organism	46	N/A	N/A	N/A	14	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857327	SRR2174518	14	N/A	N/A	N/A	male organism	20	N/A	N/A	N/A	3	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857332	SRR2174523	15	N/A	N/A	N/A	male organism	55	N/A	N/A	N/A	14	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857321	SRR2174512	12	N/A	N/A	N/A	male organism	44	N/A	N/A	N/A	14	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857341	SRR2174532	20	N/A	N/A	N/A	male organism	43	N/A	N/A	N/A	14	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857322	SRR2174513	13	N/A	N/A	N/A	female organism	46	N/A	N/A	N/A	3	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857334	SRR2174525	16	N/A	N/A	N/A	female organism	29	N/A	N/A	N/A	3	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857337	SRR2174528	16	N/A	N/A	N/A	female organism	29	N/A	N/A	N/A	14	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857344	SRR2174535	21	N/A	N/A	N/A	male organism	40	N/A	N/A	N/A	14	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857348	SRR2174539	15	N/A	N/A	N/A	male organism	55	N/A	N/A	N/A	120	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857318	SRR2174509	12	N/A	N/A	N/A	male organism	44	N/A	N/A	N/A	3	treatment+time	N/A	skin	Placebo	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857335	SRR2174526	16	N/A	N/A	N/A	female organism	29	N/A	N/A	N/A	3	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857339	SRR2174530	20	N/A	N/A	N/A	male organism	43	N/A	N/A	N/A	3	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857346	SRR2174537	13	N/A	N/A	N/A	female organism	46	N/A	N/A	N/A	120	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857323	SRR2174514	13	N/A	N/A	N/A	female organism	46	N/A	N/A	N/A	3	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857333	SRR2174524	15	N/A	N/A	N/A	male organism	55	N/A	N/A	N/A	14	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72193	GSM1857345	SRR2174536	21	N/A	N/A	N/A	male organism	40	N/A	N/A	N/A	14	treatment+time	N/A	skin	Diphencyprone	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863972	SRR2201555	N/A	N/A	N/A	N/A	female organism	54	N/A	breast ductal carcinoma	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	Luminal A Breast Carcinoma	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863969	SRR2201552	N/A	N/A	N/A	N/A	female organism	85	N/A	breast lobular carcinoma	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	Luminal A Breast Carcinoma	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863980	SRR2201563	N/A	N/A	N/A	Premenopause	female organism	30	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863982	SRR2201565	N/A	N/A	N/A	Premenopause	female organism	26	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863981	SRR2201564	N/A	N/A	N/A	Premenopause	female organism	30	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863989	SRR2201572	N/A	N/A	N/A	Postmenopause	female organism	52	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863965	SRR2201548	N/A	N/A	N/A	Premenopause	female organism	25	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863979	SRR2201562	N/A	N/A	N/A	Premenopause	female organism	30	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863975	SRR2201558	N/A	N/A	N/A	N/A	female organism	47	N/A	breast ductal carcinoma	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	Luminal A Breast Carcinoma	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863973	SRR2201556	N/A	N/A	N/A	N/A	female organism	81	N/A	breast ductal carcinoma	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	Luminal A Breast Carcinoma	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863967	SRR2201550	N/A	N/A	N/A	Premenopause	female organism	24	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863990	SRR2201573	N/A	N/A	N/A	Postmenopause	N/A	57	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863977	SRR2201560	N/A	N/A	N/A	N/A	female organism	84	N/A	Microinvasive Breast Carcinoma	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	Luminal B Breast Carcinoma	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863964	SRR2201547	N/A	N/A	N/A	Premenopause	female organism	26	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863976	SRR2201559	N/A	N/A	N/A	N/A	female organism	24	N/A	breast lobular carcinoma	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	Luminal A Breast Carcinoma	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863988	SRR2201571	N/A	N/A	N/A	Premenopause	female organism	30	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863984	SRR2201567	N/A	N/A	N/A	Premenopause	female organism	26	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863974	SRR2201557	N/A	N/A	N/A	N/A	female organism	71	N/A	breast ductal carcinoma	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	Luminal A Breast Carcinoma	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863968	SRR2201551	N/A	N/A	N/A	Premenopause	female organism	32	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863978	SRR2201561	N/A	N/A	N/A	N/A	female organism	65	N/A	inflammatory breast carcinoma	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	HER2 Positive Breast Carcinoma	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863985	SRR2201568	N/A	N/A	N/A	Premenopause	female organism	28	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863966	SRR2201549	N/A	N/A	N/A	Premenopause	female organism	27	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863970	SRR2201553	N/A	N/A	N/A	N/A	female organism	24	N/A	breast ductal carcinoma	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	Luminal A Breast Carcinoma	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863986	SRR2201569	N/A	N/A	N/A	Premenopause	female organism	24	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863971	SRR2201554	N/A	N/A	N/A	N/A	female organism	83	N/A	breast lobular carcinoma	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	Luminal A Breast Carcinoma	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863983	SRR2201566	N/A	N/A	N/A	Premenopause	female organism	30	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863963	SRR2201546	N/A	N/A	N/A	Premenopause	female organism	32	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE72080	GSM1863987	SRR2201570	N/A	N/A	N/A	Premenopause	female organism	30	N/A	healthy	N/A	N/A	disease+disease details+phenotype	N/A	peripheral blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912493	SRR2728218	N/A	N/A	N/A	N/A	female organism	56	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912504	SRR2728229	N/A	N/A	N/A	N/A	female organism	54	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912506	SRR2728231	N/A	N/A	N/A	N/A	female organism	52	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912510	SRR2728235	N/A	N/A	N/A	N/A	male organism	26	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912508	SRR2728233	N/A	N/A	N/A	N/A	female organism	62	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912498	SRR2728223	N/A	N/A	N/A	N/A	female organism	24	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912490	SRR2728215	N/A	N/A	N/A	N/A	male organism	50	N/A	mental depression	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912496	SRR2728221	N/A	N/A	N/A	N/A	female organism	41	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912505	SRR2728230	N/A	N/A	N/A	N/A	female organism	52	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912495	SRR2728220	N/A	N/A	N/A	N/A	female organism	38	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912492	SRR2728217	N/A	N/A	N/A	N/A	female organism	43	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912501	SRR2728226	N/A	N/A	N/A	N/A	male organism	21	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912489	SRR2728214	N/A	N/A	N/A	N/A	male organism	64	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912507	SRR2728232	N/A	N/A	N/A	N/A	female organism	24	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912503	SRR2728228	N/A	N/A	N/A	N/A	female organism	39	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912494	SRR2728219	N/A	N/A	N/A	N/A	male organism	50	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912499	SRR2728224	N/A	N/A	N/A	N/A	female organism	46	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912502	SRR2728227	N/A	N/A	N/A	N/A	male organism	59	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912488	SRR2728213	N/A	N/A	N/A	N/A	female organism	36	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912497	SRR2728222	N/A	N/A	N/A	N/A	female organism	28	N/A	post-traumatic stress disorder	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912509	SRR2728234	N/A	N/A	N/A	N/A	male organism	50	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912500	SRR2728225	N/A	N/A	N/A	N/A	female organism	53	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE74162	GSM1912491	SRR2728216	N/A	N/A	N/A	N/A	female organism	34	N/A	mental depression	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM769006	SRR330922	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768993	SRR330909	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768979	SRR330895	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768953	SRR330869	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768989	SRR330905	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768980	SRR330896	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768973	SRR330889	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768962	SRR330878	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768995	SRR330911	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768975	SRR330891	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768968	SRR330884	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768959	SRR330875	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768977	SRR330893	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768994	SRR330910	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM769002	SRR330918	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768946	SRR330862	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768964	SRR330880	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768948	SRR330864	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768957	SRR330873	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768996	SRR330912	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768990	SRR330906	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768970	SRR330886	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768943	SRR330859	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768997	SRR330913	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768988	SRR330904	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768972	SRR330888	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM769004	SRR330920	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768971	SRR330887	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768955	SRR330871	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768960	SRR330876	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768944	SRR330860	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768998	SRR330914	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM769000	SRR330916	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768942	SRR330858	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768945	SRR330861	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM769005	SRR330921	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768976	SRR330892	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768992	SRR330908	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768941	SRR330857	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768954	SRR330870	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768974	SRR330890	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM769007	SRR330923	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768969	SRR330885	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768961	SRR330877	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768982	SRR330898	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768947	SRR330863	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768999	SRR330915	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768967	SRR330883	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM769001	SRR330917	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768985	SRR330901	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768983	SRR330899	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768986	SRR330902	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768978	SRR330894	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768991	SRR330907	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768966	SRR330882	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768950	SRR330866	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768958	SRR330874	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768984	SRR330900	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768965	SRR330881	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768949	SRR330865	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768952	SRR330868	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768963	SRR330879	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768981	SRR330897	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768987	SRR330903	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM769003	SRR330919	N/A	N/A	healthy tissue	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768951	SRR330867	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE31037	GSM768956	SRR330872	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	psoriasis	N/A	N/A	disease+tissue phenotype	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE33665	GSM832475	SRR364276	N/A	N/A	N/A	N/A	male organism	64	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832495	SRR364296	N/A	N/A	N/A	N/A	male organism	69	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832471	SRR364272	N/A	N/A	N/A	N/A	male organism	68	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832477	SRR364278	N/A	N/A	N/A	N/A	male organism	69	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832480	SRR364281	N/A	N/A	N/A	N/A	male organism	84	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832488	SRR364289	N/A	N/A	N/A	N/A	male organism	44	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832466	SRR364267	N/A	N/A	N/A	N/A	female organism	77	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832494	SRR364295	N/A	N/A	N/A	N/A	male organism	68	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832474	SRR364275	N/A	N/A	N/A	N/A	female organism	81	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832479	SRR364280	N/A	N/A	N/A	N/A	male organism	84	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832476	SRR364277	N/A	N/A	N/A	N/A	male organism	64	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832485	SRR364286	N/A	N/A	N/A	N/A	male organism	90	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832491	SRR364292	N/A	N/A	N/A	N/A	male organism	74	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832467	SRR364268	N/A	N/A	N/A	N/A	female organism	77	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832468	SRR364269	N/A	N/A	N/A	N/A	female organism	82	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832486	SRR364287	N/A	N/A	N/A	N/A	male organism	90	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832469	SRR364270	N/A	N/A	N/A	N/A	female organism	82	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832493	SRR364294	N/A	N/A	N/A	N/A	male organism	68	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832489	SRR364290	N/A	N/A	N/A	N/A	male organism	73	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832482	SRR364283	N/A	N/A	N/A	N/A	male organism	79	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832484	SRR364285	N/A	N/A	N/A	N/A	male organism	45	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832481	SRR364282	N/A	N/A	N/A	N/A	male organism	79	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832472	SRR364273	N/A	N/A	N/A	N/A	male organism	67	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832470	SRR364271	N/A	N/A	N/A	N/A	male organism	68	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832490	SRR364291	N/A	N/A	N/A	N/A	male organism	73	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832483	SRR364284	N/A	N/A	N/A	N/A	male organism	45	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832487	SRR364288	N/A	N/A	N/A	N/A	male organism	44	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832478	SRR364279	N/A	N/A	N/A	N/A	male organism	69	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832473	SRR364274	N/A	N/A	N/A	N/A	male organism	67	N/A	nodular basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE33665	GSM832492	SRR364293	N/A	N/A	N/A	N/A	male organism	74	N/A	infiltrative basal cell carcinoma	N/A	N/A	disease	N/A	skin	N/A	N/A	N/A	N/A	basal cell	N/A	N/A
+GSE34137	GSM856876	SRR396558	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856859	SRR396541	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856881	SRR396563	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856873	SRR396555	N/A	N/A	N/A	N/A	N/A	N/A	N/A	basal cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856878	SRR396560	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856872	SRR396554	N/A	N/A	N/A	N/A	N/A	N/A	N/A	basal cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856858	SRR396540	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856869	SRR396551	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856866	SRR396548	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856886	SRR396568	N/A	N/A	N/A	N/A	N/A	N/A	MKL-1a	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE34137	GSM856879	SRR396561	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856889	SRR396571	N/A	N/A	N/A	N/A	N/A	N/A	MS-1	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE34137	GSM856880	SRR396562	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856888	SRR396570	N/A	N/A	N/A	N/A	N/A	N/A	MCC26	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE34137	GSM856867	SRR396549	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856863	SRR396545	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856860	SRR396542	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856857	SRR396539	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856895	SRR396577	N/A	N/A	N/A	N/A	N/A	N/A	NU4	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE34137	GSM856865	SRR396547	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856856	SRR396538	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856885	SRR396567	N/A	N/A	N/A	N/A	N/A	N/A	N/A	basal cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856877	SRR396559	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856868	SRR396550	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856861	SRR396543	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856884	SRR396566	N/A	N/A	N/A	N/A	N/A	N/A	N/A	basal cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856882	SRR396564	N/A	N/A	N/A	N/A	N/A	N/A	N/A	squamous cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856864	SRR396546	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856892	SRR396574	N/A	N/A	N/A	N/A	N/A	N/A	MKL-1c	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE34137	GSM856883	SRR396565	N/A	N/A	N/A	N/A	N/A	N/A	N/A	squamous cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856870	SRR396552	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856894	SRR396576	N/A	N/A	N/A	N/A	N/A	N/A	NU3	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE34137	GSM856875	SRR396557	N/A	N/A	N/A	N/A	N/A	N/A	N/A	basal cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856874	SRR396556	N/A	N/A	N/A	N/A	N/A	N/A	N/A	basal cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856862	SRR396544	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856893	SRR396575	N/A	N/A	N/A	N/A	N/A	N/A	MKL-2	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE34137	GSM856871	SRR396553	N/A	N/A	N/A	N/A	N/A	N/A	N/A	healthy	N/A	N/A	disease+cell line	N/A	skin	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE34137	GSM856887	SRR396569	N/A	N/A	N/A	N/A	N/A	N/A	MCC13	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE34137	GSM856890	SRR396572	N/A	N/A	N/A	N/A	N/A	N/A	MKL-1b	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE34137	GSM856891	SRR396573	N/A	N/A	N/A	N/A	N/A	N/A	UISO	Merkel cell carcinoma	N/A	N/A	disease+cell line	N/A	N/A	N/A	N/A	N/A	skin	N/A	N/A	N/A
+GSE37616	GSM923280	SRR491366	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	no recurrence of tumor	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923260	SRR491346	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923266	SRR491352	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	disease recurrence	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923252	SRR491338	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923265	SRR491351	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	disease recurrence	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923261	SRR491347	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923268	SRR491354	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	disease recurrence	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923273	SRR491359	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	Metastatic Renal Cell Cancer	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923285	SRR491371	N/A	N/A	N/A	N/A	N/A	N/A	MZ1257	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	N/A	N/A	N/A	N/A	renal cortex	N/A	N/A	N/A
+GSE37616	GSM923277	SRR491363	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	no recurrence of tumor	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923272	SRR491358	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	Metastatic Renal Cell Cancer	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923270	SRR491356	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	Metastatic Renal Cell Cancer	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923262	SRR491348	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	disease recurrence	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923274	SRR491360	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	Metastatic Renal Cell Cancer	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923269	SRR491355	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	disease recurrence	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923271	SRR491357	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	Metastatic Renal Cell Cancer	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923283	SRR491369	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	no recurrence of tumor	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923254	SRR491340	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923282	SRR491368	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	no recurrence of tumor	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923263	SRR491349	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	disease recurrence	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923284	SRR491370	N/A	N/A	N/A	N/A	N/A	N/A	SK-RC-7	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	N/A	N/A	N/A	N/A	renal cortex	N/A	N/A	N/A
+GSE37616	GSM923275	SRR491361	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	Metastatic Renal Cell Cancer	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923259	SRR491345	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923267	SRR491353	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	disease recurrence	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923257	SRR491343	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923281	SRR491367	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	no recurrence of tumor	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923279	SRR491365	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	no recurrence of tumor	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923251	SRR491337	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923256	SRR491342	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923278	SRR491364	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	no recurrence of tumor	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923253	SRR491339	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923255	SRR491341	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923264	SRR491350	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	disease recurrence	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923258	SRR491344	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE37616	GSM923276	SRR491362	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	renal clear cell carcinoma	N/A	N/A	disease+disease details+cell line	N/A	renal cortex	N/A	Metastatic Renal Cell Cancer	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957201	SRR518955	N/A	N/A	diseased tissue	N/A	female organism	90	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957199	SRR518953	N/A	N/A	adjacent healthy tissue	N/A	female organism	46	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957193	SRR518947	N/A	N/A	adjacent healthy tissue	N/A	female organism	57	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957196	SRR518950	N/A	N/A	adjacent healthy tissue	N/A	female organism	48	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957203	SRR518957	N/A	N/A	healthy tissue	N/A	female organism	90	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957194	SRR518948	N/A	N/A	healthy tissue	N/A	female organism	57	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957192	SRR518946	N/A	N/A	diseased tissue	N/A	female organism	57	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957202	SRR518956	N/A	N/A	adjacent healthy tissue	N/A	female organism	90	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957200	SRR518954	N/A	N/A	healthy tissue	N/A	female organism	46	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957206	SRR518960	N/A	N/A	healthy tissue	N/A	female organism	52	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957205	SRR518959	N/A	N/A	adjacent healthy tissue	N/A	female organism	52	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957198	SRR518952	N/A	N/A	diseased tissue	N/A	female organism	46	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957195	SRR518949	N/A	N/A	diseased tissue	N/A	female organism	48	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957204	SRR518958	N/A	N/A	diseased tissue	N/A	female organism	52	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39162	GSM957197	SRR518951	N/A	N/A	healthy tissue	N/A	female organism	48	N/A	breast cancer	N/A	N/A	tissue phenotype	N/A	breast	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE39436	GSM968721	SRR522852	N/A	N/A	N/A	N/A	N/A	20	N/A	healthy	N/A	N/A	disease	N/A	umbilical cord blood	N/A	N/A	N/A	N/A	mononuclear cell	N/A	N/A
+GSE39436	GSM968720	SRR522851	N/A	N/A	N/A	N/A	N/A	20	N/A	Down syndrome	N/A	N/A	disease	N/A	umbilical cord blood	N/A	N/A	N/A	N/A	mononuclear cell	N/A	N/A
+GSE43550	GSM1065163	SRR649562	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	colorectal cancer	N/A	N/A	tissue phenotype	N/A	intestine	N/A	T3 tumor stage	N/A	N/A	N/A	N/A	N/A
+GSE43550	GSM1065166	SRR649565	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	colorectal cancer	N/A	N/A	tissue phenotype	N/A	intestine	transcatheter arterial infusion chemotherapy	T3 tumor stage	N/A	N/A	N/A	N/A	N/A
+GSE43550	GSM1065164	SRR649563	N/A	N/A	diseased tissue	N/A	N/A	N/A	N/A	colorectal cancer	N/A	N/A	tissue phenotype	N/A	intestine	N/A	T3 tumor stage	N/A	N/A	N/A	N/A	N/A
+GSE43550	GSM1065165	SRR649564	N/A	N/A	adjacent healthy tissue	N/A	N/A	N/A	N/A	colorectal cancer	N/A	N/A	tissue phenotype	N/A	intestine	transcatheter arterial infusion chemotherapy	T3 tumor stage	N/A	N/A	N/A	N/A	N/A
+GSE46131	GSM1124355	SRR828725	N/A	N/A	N/A	N/A	female organism	67	N/A	Alzheimer's disease	N/A	N/A	disease+disease details	N/A	neocortex	N/A	braak stage 6	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124356	SRR828726	N/A	N/A	N/A	N/A	female organism	75	N/A	Alzheimer's disease	N/A	N/A	disease+disease details	N/A	neocortex	N/A	braak stage 6	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124353	SRR828723	N/A	N/A	N/A	N/A	female organism	83	N/A	Alzheimer's disease	N/A	N/A	disease+disease details	N/A	neocortex	N/A	braak stage 5	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124349	SRR828719	N/A	N/A	N/A	N/A	male organism	78	N/A	Lewy body dementia	N/A	N/A	disease+disease details	N/A	neocortex	N/A	N/A	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124343	SRR828713	N/A	N/A	N/A	N/A	female organism	87	N/A	frontotemporal dementia	N/A	N/A	disease+disease details	N/A	neocortex	N/A	TDP43 positive	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124351	SRR828721	N/A	N/A	N/A	N/A	female organism	85	N/A	Lewy body dementia	N/A	N/A	disease+disease details	N/A	neocortex	N/A	N/A	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124352	SRR828722	N/A	N/A	N/A	N/A	male organism	68	N/A	Lewy body dementia	N/A	N/A	disease+disease details	N/A	neocortex	N/A	N/A	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124348	SRR828718	N/A	N/A	N/A	N/A	female organism	101	N/A	hippocampal sclerosis of aging	N/A	N/A	disease+disease details	N/A	neocortex	N/A	N/A	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124339	SRR828709	N/A	N/A	N/A	N/A	female organism	84	N/A	healthy	N/A	N/A	disease+disease details	N/A	neocortex	N/A	N/A	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124350	SRR828720	N/A	N/A	N/A	N/A	male organism	78	N/A	Lewy body dementia	N/A	N/A	disease+disease details	N/A	neocortex	N/A	N/A	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124346	SRR828716	N/A	N/A	N/A	N/A	female organism	84	N/A	hippocampal sclerosis of aging	N/A	N/A	disease+disease details	N/A	neocortex	N/A	N/A	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124341	SRR828711	N/A	N/A	N/A	N/A	female organism	53	N/A	frontotemporal dementia	N/A	N/A	disease+disease details	N/A	neocortex	N/A	TDP43 positive	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124357	SRR828727	N/A	N/A	N/A	N/A	female organism	86	N/A	Alzheimer's disease	N/A	N/A	disease+disease details	N/A	neocortex	N/A	braak stage 6	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124340	SRR828710	N/A	N/A	N/A	N/A	female organism	37	N/A	frontotemporal dementia	N/A	N/A	disease+disease details	N/A	neocortex	N/A	tdp43 negative	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124344	SRR828714	N/A	N/A	N/A	N/A	male organism	70	N/A	progressive supranuclear palsy	N/A	N/A	disease+disease details	N/A	neocortex	N/A	N/A	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124354	SRR828724	N/A	N/A	N/A	N/A	female organism	86	N/A	Alzheimer's disease	N/A	N/A	disease+disease details	N/A	neocortex	N/A	braak stage 6	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124345	SRR828715	N/A	N/A	N/A	N/A	female organism	84	N/A	hippocampal sclerosis of aging	N/A	N/A	disease+disease details	N/A	neocortex	N/A	N/A	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124347	SRR828717	N/A	N/A	N/A	N/A	male organism	93	N/A	hippocampal sclerosis of aging	N/A	N/A	disease+disease details	N/A	neocortex	N/A	N/A	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124342	SRR828712	N/A	N/A	N/A	N/A	male organism	48	N/A	frontotemporal dementia	N/A	N/A	disease+disease details	N/A	neocortex	N/A	TDP43 positive	N/A	N/A	N/A	N/A	gray matter
+GSE46131	GSM1124338	SRR828708	N/A	N/A	N/A	N/A	female organism	75	N/A	healthy	N/A	N/A	disease+disease details	N/A	neocortex	N/A	N/A	N/A	N/A	N/A	N/A	gray matter
+GSE46489	GSM1131188	SRR836170	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	ovarian cumulus cell	N/A	N/A
+GSE46489	GSM1131187	SRR836168	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	ovarian cumulus cell	N/A	N/A
+GSE46489	GSM1131191	SRR836176	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	mural granulosa cell	N/A	N/A
+GSE46489	GSM1131189	SRR836173	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	mural granulosa cell	N/A	N/A
+GSE46489	GSM1131188	SRR836171	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	ovarian cumulus cell	N/A	N/A
+GSE46489	GSM1131190	SRR836174	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	mural granulosa cell	N/A	N/A
+GSE46489	GSM1131189	SRR836172	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	mural granulosa cell	N/A	N/A
+GSE46489	GSM1131187	SRR836169	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	ovarian cumulus cell	N/A	N/A
+GSE46489	GSM1131191	SRR836177	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	mural granulosa cell	N/A	N/A
+GSE46489	GSM1131190	SRR836175	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	mural granulosa cell	N/A	N/A
+GSE46489	GSM1131186	SRR836167	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	ovarian cumulus cell	N/A	N/A
+GSE46489	GSM1131186	SRR836166	N/A	N/A	N/A	N/A	female organism	N/A	N/A	infertility	N/A	N/A	cell type	N/A	ovarian follicle	N/A	N/A	N/A	N/A	ovarian cumulus cell	N/A	N/A
+GSE48059	GSM1167070	SRR907615	N/A	N/A	N/A	N/A	N/A	N/A	K562	chronic myeloid leukemia	N/A	N/A	cell line	N/A	N/A	N/A	N/A	N/A	bone marrow	chronic myeloid leukemia cell	N/A	N/A
+GSE48059	GSM1167069	SRR907614	N/A	N/A	N/A	N/A	N/A	N/A	HL-60	acute promyelocytic leukemia	N/A	N/A	cell line	N/A	N/A	N/A	N/A	N/A	peripheral blood	acute promyelocytic leukemia cell	N/A	N/A
+GSE48059	GSM1167071	SRR907616	N/A	N/A	N/A	N/A	N/A	N/A	THP-1	acute monocytic leukemia	N/A	N/A	cell line	N/A	N/A	N/A	N/A	N/A	peripheral blood	acute myeloid leukemia cell	N/A	N/A
+GSE66334	GSM1619945	SRR1820687	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	30	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	exercise	N/A
+GSE66334	GSM1619943	SRR1820685	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	30	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	exercise	N/A
+GSE66334	GSM1619937	SRR1820679	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	30	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	exercise	N/A
+GSE66334	GSM1619939	SRR1820681	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	30	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	exercise	N/A
+GSE66334	GSM1619947	SRR1820689	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	30	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	exercise	N/A
+GSE66334	GSM1619948	SRR1820690	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	normal physical activity	N/A
+GSE66334	GSM1619946	SRR1820688	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	normal physical activity	N/A
+GSE66334	GSM1619940	SRR1820682	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	normal physical activity	N/A
+GSE66334	GSM1619938	SRR1820680	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	normal physical activity	N/A
+GSE66334	GSM1619941	SRR1820683	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	30	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	exercise	N/A
+GSE66334	GSM1619942	SRR1820684	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	normal physical activity	N/A
+GSE66334	GSM1619944	SRR1820686	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	experimental process	N/A	muscle	N/A	N/A	N/A	N/A	N/A	normal physical activity	N/A
+GSE60036	GSM1464047	SRR1535276	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	0	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	control	N/A
+GSE60036	GSM1464047	SRR1535277	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	0	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	control	N/A
+GSE60036	GSM1464048	SRR1535278	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	0	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	control	N/A
+GSE60036	GSM1464048	SRR1535279	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	0	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	control	N/A
+GSE60036	GSM1464052	SRR1535285	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	1	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	actinomycin D	N/A
+GSE60036	GSM1464050	SRR1535282	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	1	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	actinomycin D	N/A
+GSE60036	GSM1464053	SRR1535287	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	4	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	actinomycin D	N/A
+GSE60036	GSM1464051	SRR1535283	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	1	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	actinomycin D	N/A
+GSE60036	GSM1464050	SRR1535281	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	1	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	actinomycin D	N/A
+GSE60036	GSM1464051	SRR1535284	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	1	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	actinomycin D	N/A
+GSE60036	GSM1464049	SRR1535280	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	0	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	control	N/A
+GSE60036	GSM1464054	SRR1535288	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	4	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	actinomycin D	N/A
+GSE60036	GSM1464053	SRR1535286	N/A	N/A	N/A	N/A	N/A	N/A	HDMYZ	Hodgkin's lymphoma	N/A	4	experimental process+time	N/A	N/A	N/A	N/A	N/A	pleura	Hodgkin lymphoma cell	actinomycin D	N/A
+GSE31069	GSM769510	SRR326280	N/A	N/A	N/A	N/A	N/A	N/A	MCF-7	adenocarcinoma	N/A	N/A	tissue part+treatment	N/A	N/A	N/A	N/A	N/A	mammary gland	epithelial cell	N/A	Cell
+GSE31069	GSM769509	SRR326279	N/A	N/A	N/A	N/A	N/A	N/A	MCF-7	adenocarcinoma	N/A	N/A	tissue part+treatment	N/A	N/A	N/A	N/A	N/A	mammary gland	epithelial cell	N/A	cytoplasm
+GSE31069	GSM769512	SRR326282	N/A	N/A	N/A	N/A	N/A	N/A	MCF-7	adenocarcinoma	N/A	N/A	tissue part+treatment	N/A	N/A	dicer knockdown	N/A	N/A	mammary gland	epithelial cell	N/A	Cell
+GSE31069	GSM769511	SRR326281	N/A	N/A	N/A	N/A	N/A	N/A	MCF-7	adenocarcinoma	N/A	N/A	tissue part+treatment	N/A	N/A	dicer knockdown	N/A	N/A	mammary gland	epithelial cell	N/A	cytoplasm
+GSE73625	GSM1899660	SRR2541547	N/A	N/A	N/A	N/A	N/A	N/A	CD133+ 110040	glioblastoma multiforme	N/A	N/A	experimental process+time	N/A	N/A	N/A	N/A	N/A	brain	glioblast	control	N/A
+GSE73625	GSM1899664	SRR2541551	N/A	N/A	N/A	N/A	N/A	N/A	CD133+ 110040	glioblastoma multiforme	N/A	12	experimental process+time	N/A	N/A	N/A	N/A	N/A	brain	glioblast	ischemia reperfusion injury	N/A
+GSE73625	GSM1899665	SRR2541552	N/A	N/A	N/A	N/A	N/A	N/A	CD133+ 110040	glioblastoma multiforme	N/A	24	experimental process+time	N/A	N/A	N/A	N/A	N/A	brain	glioblast	ischemia reperfusion injury	N/A
+GSE73625	GSM1899661	SRR2541548	N/A	N/A	N/A	N/A	N/A	N/A	CD133+ 110040	glioblastoma multiforme	N/A	6	experimental process+time	N/A	N/A	N/A	N/A	N/A	brain	glioblast	ischemia reperfusion injury	N/A
+GSE73625	GSM1899663	SRR2541550	N/A	N/A	N/A	N/A	N/A	N/A	CD133+ 110040	glioblastoma multiforme	N/A	12	experimental process+time	N/A	N/A	N/A	N/A	N/A	brain	glioblast	ischemia reperfusion injury	N/A
+GSE73625	GSM1899662	SRR2541549	N/A	N/A	N/A	N/A	N/A	N/A	CD133+ 110040	glioblastoma multiforme	N/A	6	experimental process+time	N/A	N/A	N/A	N/A	N/A	brain	glioblast	ischemia reperfusion injury	N/A
+GSE73625	GSM1899666	SRR2541553	N/A	N/A	N/A	N/A	N/A	N/A	CD133+ 110040	glioblastoma multiforme	N/A	24	experimental process+time	N/A	N/A	N/A	N/A	N/A	brain	glioblast	ischemia reperfusion injury	N/A
+GSE73625	GSM1899659	SRR2541546	N/A	N/A	N/A	N/A	N/A	N/A	CD133+ 110040	glioblastoma multiforme	N/A	N/A	experimental process+time	N/A	N/A	N/A	N/A	N/A	brain	glioblast	control	N/A
+GSE61856	GSM1515808	SRR1592245	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	2	time	N/A	blood	N/A	N/A	N/A	N/A	platelet	N/A	N/A
+GSE61856	GSM1515812	SRR1592249	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	7	time	N/A	blood	N/A	N/A	N/A	N/A	platelet	N/A	N/A
+GSE61856	GSM1515810	SRR1592247	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	4	time	N/A	blood	N/A	N/A	N/A	N/A	platelet	N/A	N/A
+GSE61856	GSM1515811	SRR1592248	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	5	time	N/A	blood	N/A	N/A	N/A	N/A	platelet	N/A	N/A
+GSE61856	GSM1515809	SRR1592246	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	3	time	N/A	blood	N/A	N/A	N/A	N/A	platelet	N/A	N/A
+GSE61856	GSM1515807	SRR1592244	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	1	time	N/A	blood	N/A	N/A	N/A	N/A	platelet	N/A	N/A
+GSE79365	GSM2093320	SRR3235778	N/A	N/A	N/A	N/A	N/A	N/A	P69	N/A	N/A	N/A	cell line+genotype	N/A	N/A	N/A	N/A	non-tumorigenic	prostate gland	epithelial cell	N/A	N/A
+GSE79365	GSM2093323	SRR3235781	N/A	N/A	N/A	N/A	N/A	N/A	F6	N/A	N/A	N/A	cell line+genotype	N/A	N/A	N/A	N/A	non-tumorigenic	prostate gland	epithelial cell	chromosomal transfer from m12	N/A
+GSE79365	GSM2093322	SRR3235780	N/A	N/A	N/A	N/A	N/A	N/A	M2182	N/A	N/A	N/A	cell line+genotype	N/A	N/A	N/A	N/A	tumorigenic	prostate gland	epithelial cell	N/A	N/A
+GSE79365	GSM2093321	SRR3235779	N/A	N/A	N/A	N/A	N/A	N/A	M12	N/A	N/A	N/A	cell line+genotype	N/A	N/A	N/A	N/A	tumorigenic	prostate gland	epithelial cell	N/A	N/A
+GSE79365	GSM2093319	SRR3235777	N/A	N/A	N/A	N/A	N/A	N/A	P69	N/A	N/A	N/A	cell line+genotype	N/A	N/A	N/A	N/A	non-tumorigenic	prostate gland	epithelial cell	N/A	N/A
+GSE15229	GSM497072	SRR033727	N/A	N/A	N/A	N/A	N/A	N/A	N/A	human immunodeficiency virus infectious disease	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE15229	GSM380330	SRR015365	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	memory B cell	fluorescence-activated cell sorting	N/A
+GSE15229	GSM380324	SRR015359	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	germinal center B cell	fluorescence-activated cell sorting	N/A
+GSE15229	GSM497065	SRR096521	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	EBV transformation 	N/A
+GSE15229	GSM497070	SRR033725	N/A	N/A	N/A	N/A	N/A	N/A	N/A	chronic lymphocytic leukemia	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE15229	GSM497064	SRR033719	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	B-Cell Activation	N/A
+GSE15229	GSM497060	SRR033715	N/A	N/A	N/A	N/A	N/A	N/A	Mino	mantle cell lymphoma	N/A	N/A	disease+cell line+cell type	N/A	N/A	N/A	N/A	N/A	lymphoid tissue	B cell	N/A	N/A
+GSE15229	GSM497073	SRR033728	N/A	N/A	N/A	N/A	N/A	N/A	N/A	marginal zone B-cell lymphoma	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE15229	GSM497062	SRR033717	N/A	N/A	N/A	N/A	N/A	N/A	N/A	mantle cell lymphoma	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE15229	GSM497077	SRR033732	N/A	N/A	N/A	N/A	N/A	N/A	BJAB	diffuse large B-cell lymphoma	N/A	N/A	disease+cell line+cell type	N/A	N/A	N/A	N/A	N/A	lymphoid tissue	B cell	N/A	N/A
+GSE15229	GSM497076	SRR033731	N/A	N/A	N/A	N/A	N/A	N/A	NCI-H929	multiple myeloma	N/A	N/A	disease+cell line+cell type	N/A	N/A	N/A	N/A	N/A	Pleural Effusion	B cell	N/A	N/A
+GSE15229	GSM380327	SRR015362	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	naive B cell	fluorescence-activated cell sorting	N/A
+GSE15229	GSM497059	SRR033714	N/A	N/A	N/A	N/A	N/A	N/A	Daudi	Burkitt lymphoma	N/A	N/A	disease+cell line+cell type	N/A	N/A	N/A	N/A	N/A	lymphoid tissue	B cell	N/A	N/A
+GSE15229	GSM497075	SRR033730	N/A	N/A	N/A	N/A	N/A	N/A	N/A	lymphoblastic lymphoma	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE15229	GSM497066	SRR033721	N/A	N/A	N/A	N/A	N/A	N/A	OCI-LY3	diffuse large B-cell lymphoma	N/A	N/A	disease+cell line+cell type	N/A	N/A	N/A	N/A	N/A	lymphoid tissue	B cell	N/A	N/A
+GSE15229	GSM380323	SRR015358	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	naive B cell	fluorescence-activated cell sorting	N/A
+GSE15229	GSM497057	SRR033712	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Burkitt lymphoma	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE15229	GSM497074	SRR033729	N/A	N/A	N/A	N/A	N/A	N/A	N/A	marginal zone B-cell lymphoma	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE15229	GSM497067	SRR033722	N/A	N/A	N/A	N/A	N/A	N/A	KMS-12-BM cell	multiple myeloma	N/A	N/A	disease+cell line+cell type	N/A	N/A	N/A	N/A	N/A	lymphoid tissue	B cell	N/A	N/A
+GSE15229	GSM380329	SRR015364	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	plasma cell	fluorescence-activated cell sorting	N/A
+GSE15229	GSM380325	SRR015360	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	plasma cell	fluorescence-activated cell sorting	N/A
+GSE15229	GSM497058	SRR033713	N/A	N/A	N/A	N/A	N/A	N/A	Ramos	Burkitt lymphoma	N/A	N/A	disease+cell line+cell type	N/A	N/A	N/A	N/A	N/A	lymphoblast	B cell	N/A	N/A
+GSE15229	GSM497068	SRR033723	N/A	N/A	N/A	N/A	N/A	N/A	L1236	Hodgkin's lymphoma	N/A	N/A	disease+cell line+cell type	N/A	N/A	N/A	N/A	N/A	lymphoid tissue	B cell	N/A	N/A
+GSE15229	GSM497056	SRR033711	N/A	N/A	N/A	N/A	N/A	N/A	N/A	diffuse large B-cell lymphoma	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE15229	GSM497063	SRR033718	N/A	N/A	N/A	N/A	N/A	N/A	U266	multiple myeloma	N/A	N/A	disease+cell line+cell type	N/A	N/A	N/A	N/A	N/A	peripheral blood lymphocyte	B cell	N/A	N/A
+GSE15229	GSM380328	SRR015363	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	germinal center B cell	fluorescence-activated cell sorting	N/A
+GSE15229	GSM497071	SRR033726	N/A	N/A	N/A	N/A	N/A	N/A	N/A	chronic lymphocytic leukemia	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE15229	GSM497055	SRR033710	N/A	N/A	N/A	N/A	N/A	N/A	N/A	follicular lymphoma	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE15229	GSM380326	SRR015361	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	memory B cell	fluorescence-activated cell sorting	N/A
+GSE15229	GSM497061	SRR033716	N/A	N/A	N/A	N/A	N/A	N/A	N/A	mantle cell lymphoma	N/A	N/A	disease+cell line+cell type	N/A	tonsil	N/A	N/A	N/A	N/A	B cell	N/A	N/A
+GSE15229	GSM497069	SRR033724	N/A	N/A	N/A	N/A	N/A	N/A	L428	Hodgkin's lymphoma	N/A	N/A	disease+cell line+cell type	N/A	N/A	N/A	N/A	N/A	Pleural Effusion	B cell	N/A	N/A
+GSE65752	GSM1604062	SRR1793807	N/A	N/A	N/A	N/A	N/A	N/A	Kem	Burkitt lymphoma	1	N/A	cell line+experimental process+time	Human gammaherpesvirus 4	N/A	N/A	N/A	N/A	N/A	N/A	control	N/A
+GSE65752	GSM1604059	SRR1793804	N/A	N/A	N/A	N/A	N/A	N/A	Mutu	Burkitt lymphoma	1	N/A	cell line+experimental process+time	Human gammaherpesvirus 4	N/A	N/A	N/A	N/A	N/A	N/A	control	N/A
+GSE65752	GSM1604066	SRR1793811	N/A	N/A	N/A	N/A	N/A	N/A	Sav	Burkitt lymphoma	N/A	2	cell line+experimental process+time	Human gammaherpesvirus 4	N/A	N/A	N/A	N/A	N/A	N/A	tgf-beta1	N/A
+GSE65752	GSM1604064	SRR1793809	N/A	N/A	N/A	N/A	N/A	N/A	Kem	Burkitt lymphoma	1	24	cell line+experimental process+time	Human gammaherpesvirus 4	N/A	N/A	N/A	N/A	N/A	N/A	tgf-beta1	N/A
+GSE65752	GSM1604065	SRR1793810	N/A	N/A	N/A	N/A	N/A	N/A	Sav	Burkitt lymphoma	N/A	N/A	cell line+experimental process+time	Human gammaherpesvirus 4	N/A	N/A	N/A	N/A	N/A	N/A	control	N/A
+GSE65752	GSM1604067	SRR1793812	N/A	N/A	N/A	N/A	N/A	N/A	Sav	Burkitt lymphoma	N/A	24	cell line+experimental process+time	Human gammaherpesvirus 4	N/A	N/A	N/A	N/A	N/A	N/A	tgf-beta1	N/A
+GSE65752	GSM1604063	SRR1793808	N/A	N/A	N/A	N/A	N/A	N/A	Kem	Burkitt lymphoma	1	2	cell line+experimental process+time	Human gammaherpesvirus 4	N/A	N/A	N/A	N/A	N/A	N/A	tgf-beta1	N/A
+GSE65752	GSM1604061	SRR1793806	N/A	N/A	N/A	N/A	N/A	N/A	Mutu	Burkitt lymphoma	1	24	cell line+experimental process+time	Human gammaherpesvirus 4	N/A	N/A	N/A	N/A	N/A	N/A	tgf-beta1	N/A
+GSE65752	GSM1604060	SRR1793805	N/A	N/A	N/A	N/A	N/A	N/A	Mutu	Burkitt lymphoma	1	2	cell line+experimental process+time	Human gammaherpesvirus 4	N/A	N/A	N/A	N/A	N/A	N/A	tgf-beta1	N/A
+GSE46579	GSM1132723	SRR837472	N/A	N/A	N/A	N/A	female organism	60	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132742	SRR837491	N/A	N/A	N/A	N/A	female organism	71	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132710	SRR837459	N/A	N/A	N/A	N/A	female organism	69	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132729	SRR837478	N/A	N/A	N/A	N/A	male organism	77	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132698	SRR837447	N/A	N/A	N/A	N/A	male organism	76	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132689	SRR837438	N/A	N/A	N/A	N/A	male organism	74	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132731	SRR837480	N/A	N/A	N/A	N/A	male organism	75	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132707	SRR837456	N/A	N/A	N/A	N/A	male organism	75	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132709	SRR837458	N/A	N/A	N/A	N/A	female organism	75	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132740	SRR837489	N/A	N/A	N/A	N/A	male organism	61	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132734	SRR837483	N/A	N/A	N/A	N/A	female organism	71	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132691	SRR837440	N/A	N/A	N/A	N/A	female organism	75	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132732	SRR837481	N/A	N/A	N/A	N/A	male organism	63	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132718	SRR837467	N/A	N/A	N/A	N/A	male organism	62	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132751	SRR837500	N/A	N/A	N/A	N/A	female organism	74	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132749	SRR837498	N/A	N/A	N/A	N/A	female organism	64	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132690	SRR837439	N/A	N/A	N/A	N/A	male organism	68	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132727	SRR837476	N/A	N/A	N/A	N/A	male organism	83	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132720	SRR837469	N/A	N/A	N/A	N/A	female organism	56	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132756	SRR837505	N/A	N/A	N/A	N/A	male organism	78	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132744	SRR837493	N/A	N/A	N/A	N/A	male organism	80	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132715	SRR837464	N/A	N/A	N/A	N/A	female organism	69	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132714	SRR837463	N/A	N/A	N/A	N/A	male organism	72	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132713	SRR837462	N/A	N/A	N/A	N/A	male organism	74	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132708	SRR837457	N/A	N/A	N/A	N/A	female organism	70	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132696	SRR837445	N/A	N/A	N/A	N/A	male organism	77	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132733	SRR837482	N/A	N/A	N/A	N/A	male organism	64	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132753	SRR837502	N/A	N/A	N/A	N/A	female organism	72	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132750	SRR837499	N/A	N/A	N/A	N/A	male organism	65	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132702	SRR837451	N/A	N/A	N/A	N/A	female organism	70	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132725	SRR837474	N/A	N/A	N/A	N/A	female organism	76	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132735	SRR837484	N/A	N/A	N/A	N/A	female organism	60	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132711	SRR837460	N/A	N/A	N/A	N/A	female organism	68	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132737	SRR837486	N/A	N/A	N/A	N/A	female organism	60	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132688	SRR837437	N/A	N/A	N/A	N/A	female organism	77	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132741	SRR837490	N/A	N/A	N/A	N/A	female organism	74	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132736	SRR837485	N/A	N/A	N/A	N/A	male organism	75	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132703	SRR837452	N/A	N/A	N/A	N/A	female organism	78	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132757	SRR837506	N/A	N/A	N/A	N/A	male organism	79	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132724	SRR837473	N/A	N/A	N/A	N/A	female organism	60	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132745	SRR837494	N/A	N/A	N/A	N/A	male organism	81	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132705	SRR837454	N/A	N/A	N/A	N/A	female organism	72	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132739	SRR837488	N/A	N/A	N/A	N/A	female organism	60	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132692	SRR837441	N/A	N/A	N/A	N/A	male organism	74	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132743	SRR837492	N/A	N/A	N/A	N/A	male organism	60	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132693	SRR837442	N/A	N/A	N/A	N/A	male organism	76	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132748	SRR837497	N/A	N/A	N/A	N/A	female organism	63	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132738	SRR837487	N/A	N/A	N/A	N/A	female organism	66	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132701	SRR837450	N/A	N/A	N/A	N/A	female organism	55	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132712	SRR837461	N/A	N/A	N/A	N/A	female organism	71	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132716	SRR837465	N/A	N/A	N/A	N/A	female organism	63	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132730	SRR837479	N/A	N/A	N/A	N/A	male organism	63	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132717	SRR837466	N/A	N/A	N/A	N/A	male organism	80	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132754	SRR837503	N/A	N/A	N/A	N/A	male organism	63	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132721	SRR837470	N/A	N/A	N/A	N/A	female organism	57	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132746	SRR837495	N/A	N/A	N/A	N/A	female organism	76	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132706	SRR837455	N/A	N/A	N/A	N/A	male organism	57	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132726	SRR837475	N/A	N/A	N/A	N/A	female organism	60	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132755	SRR837504	N/A	N/A	N/A	N/A	male organism	78	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132747	SRR837496	N/A	N/A	N/A	N/A	female organism	60	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132697	SRR837446	N/A	N/A	N/A	N/A	female organism	72	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132722	SRR837471	N/A	N/A	N/A	N/A	male organism	76	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132719	SRR837468	N/A	N/A	N/A	N/A	male organism	75	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132700	SRR837449	N/A	N/A	N/A	N/A	female organism	51	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132728	SRR837477	N/A	N/A	N/A	N/A	male organism	61	N/A	healthy	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132694	SRR837443	N/A	N/A	N/A	N/A	male organism	79	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132704	SRR837453	N/A	N/A	N/A	N/A	male organism	81	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132699	SRR837448	N/A	N/A	N/A	N/A	male organism	61	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132752	SRR837501	N/A	N/A	N/A	N/A	female organism	59	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+GSE46579	GSM1132695	SRR837444	N/A	N/A	N/A	N/A	female organism	75	N/A	Alzheimer's disease	N/A	N/A	disease	N/A	blood	N/A	N/A	N/A	N/A	N/A	N/A	N/A
