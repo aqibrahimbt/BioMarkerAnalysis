@@ -33,10 +33,10 @@ Initialize global variables
 
 # datasets = "GSE65367" # for classification
 # datasets = "GSE62809"
-datasets = "GSE63046" # with covariates
+# datasets = "GSE63046" # with covariates
 # datasets = "GSE63501"
 # datasets = "GSE39436"
-# datasets = "GSE15229"
+datasets = "GSE15229"
 
 formula = as.formula("~age+gender+condition")
 output_dir = "./output"
