@@ -49,7 +49,6 @@ get_sample_group <- function(sub_sample){
   return(sample_group)
 }
 
-#' Extract a single dataset out of the meat data flat file and
 #' combine all features from coloumn new.sample.group to condition
 #'
 #' @param dataset dataset number
@@ -57,7 +56,7 @@ get_sample_group <- function(sub_sample){
 #' @return dataframe of metadata including requested dataset
 #' @export
 #'
-get.metadata.single <- function(sub_sample) {
+get.metadata <- function(sub_sample) {
   sample_group = get_sample_group(sub_sample)
   
   # check if we have feature combinations
@@ -72,22 +71,6 @@ get.metadata.single <- function(sub_sample) {
   sub_sample$condition = as.factor(new_condition)
   
   return(sub_sample)
-}
-
-#' Extract datasets out of the meat data flat file and
-#' combine all features from column new.sample.group to a new condition column
-#'
-#' @param dataset vector of dataset numbers
-#' @param meta_data meta data table
-#' @return dataframe of metadata including requested dataset
-#' @export
-#'
-get.metadata <- function(dataset, meta_data) {
-  tmp = meta_data[meta_data$dataset %in% dataset, ]
-  tmp = droplevels(tmp)
-  return(do.call(rbind, lapply(
-    split(tmp, tmp$dataset), get.metadata.single
-  )))
 }
 
 
@@ -276,7 +259,7 @@ replace.na <- function(coldata, condition, new_value){
 }
 
 #' Extract all conditions out of meta data and return a dataframe
-#' compatible with deSeq2
+#' compatible with deSeq2. Check if 
 #'
 #' @param meta_data meta data table
 #' @param formula formula
@@ -290,7 +273,6 @@ get.conditons <- function(dataset_metadata, formula) {
   rownames(coldata) = meta_data$sample
   colnames(coldata) = formula_list
   
- 
   # replace N/A of condition row
   coldata = replace.na(coldata,"condition","N/A")
 
@@ -334,12 +316,14 @@ get.conditons <- function(dataset_metadata, formula) {
   return(list(conditions=coldata,formula=formula))
 }
 
+#' @export
+#' 
 create.new.formula <-function(names){
   # create new formula
-  formula = paste(names,collapse="+")
-  formula = paste0("~",formula)
-  return(as.formula(formula))
-  
+  new_formula = paste(names,collapse="+")
+  new_formula = paste0("~",new_formula)
+  formula = as.formula(new_formula)
+  return(formula)
 }
 
 

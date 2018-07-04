@@ -48,7 +48,7 @@ get_comparisons <- function(conditions){
     }
   }
   
-  conditions_out = data.frame(condition_1=conditions_1, condition_2=conditions_2)
+  conditions_out = data.frame(condition_1=as.character(conditions_1), condition_2=as.character(conditions_2))
   
   return(list(conditions=conditions_out, samples=sample_conditions))
 }

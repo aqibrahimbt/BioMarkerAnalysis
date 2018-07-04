@@ -3,7 +3,7 @@
 \name{get.conditons}
 \alias{get.conditons}
 \title{Extract all conditions out of meta data and return a dataframe
-compatible with deSeq2}
+compatible with deSeq2. Check if}
 \usage{
 get.conditons(dataset_metadata, formula)
 }
@@ -14,5 +14,5 @@ get.conditons(dataset_metadata, formula)
 }
 \description{
 Extract all conditions out of meta data and return a dataframe
-compatible with deSeq2
+compatible with deSeq2. Check if
 }

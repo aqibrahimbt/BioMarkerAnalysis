@@ -2,7 +2,7 @@
 
 suppressWarnings({
   suppressMessages({
-    library("deanalysis")
+    library("gToolbox")
     packages <-c("ggplot2","jsonlite","stringr","Rtsne","digest","optparse")
     check.packages(packages)
     bio_packages <-c("DESeq2","genefilter")

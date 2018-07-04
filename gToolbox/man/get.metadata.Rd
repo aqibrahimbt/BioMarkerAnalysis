@@ -2,13 +2,12 @@
 % Please edit documentation in R/read_data.r
 \name{get.metadata}
 \alias{get.metadata}
-\title{Extract datasets out of the meat data flat file and
-combine all features from column new.sample.group to a new condition column}
+\title{combine all features from coloumn new.sample.group to condition}
 \usage{
-get.metadata(dataset, meta_data)
+get.metadata(sub_sample)
 }
 \arguments{
-\item{dataset}{vector of dataset numbers}
+\item{dataset}{dataset number}
 
 \item{meta_data}{meta data table}
 }
@@ -16,6 +15,5 @@ get.metadata(dataset, meta_data)
 dataframe of metadata including requested dataset
 }
 \description{
-Extract datasets out of the meat data flat file and
-combine all features from column new.sample.group to a new condition column
+combine all features from coloumn new.sample.group to condition
 }
