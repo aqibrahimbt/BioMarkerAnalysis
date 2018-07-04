@@ -184,7 +184,7 @@ get.data <-
     feature.length = feature.length[rownames(count_matrix), ]
     
     # extract meta data
-    dataset_metadata = get.metadata(datasets, sub_samples)
+    dataset_metadata = get.metadata(sub_samples)
     conditions_out = get.conditons(dataset_metadata, formula)
     condition = conditions_out$condition
     formula = conditions_out$formula
