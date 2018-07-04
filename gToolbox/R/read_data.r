@@ -122,7 +122,7 @@ get.path <- function(sample) {
     sample["path"],
     sample["dataset"],
     sample["sample"],
-    "/transcript_quantification/feature_counts/",
+    "/summary/",
     sample["file"],
     sep = "/"
   )

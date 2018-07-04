@@ -56,7 +56,7 @@ meta_data = meta_data_table
 ## Read meta data from api DB
 #meta_data = get_metadata(datasets)
 
-dataset_data = get.data(datasets,meta_data, working_dir, file = "counts.1.tsv", formula=formula)
+dataset_data = get.data(datasets,meta_data, working_dir, file = "featureCounts.tsv", formula=formula)
 
 count_matrix = dataset_data$count.matrix
 feature_length= dataset_data$feature.length
