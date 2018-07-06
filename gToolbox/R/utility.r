@@ -37,24 +37,53 @@ randomizeString <- function(x) {
 #' @export
 #'
 log_running <- function(msg){
-  return(paste0(format(Sys.time(), "%F %T"), " [RUNNING] ", msg))
+  msg = paste0(format(Sys.time(), "%F %T"), " [RUNNING] ", msg)
+  message(msg)
 }
 
 
 #' Generates log when completed
 #' @param msg - length of variable
+#' @import log4r
 #' @export
 #'
 log_done <- function(msg){
-  return(paste0(format(Sys.time(), "%F %T"), " [DONE] ", msg))
+  msg = paste0(format(Sys.time(), "%F %T"), " [DONE] ", msg)
+  message(msg)
 }
 
 #' Generates error log
 #' @param msg - length of variable
+#' @import log4r
 #' @export
 #'
 log_error <- function(msg){
-  return(paste0(format(Sys.time(), "%F %T"), " [ERROR] ", msg))
+  msg = paste0(format(Sys.time(), "%F %T"), " [ERROR] ", msg)
+  message(msg)
+}
+
+#' Generates warning log
+#' @param msg - length of variable
+#' @import log4r
+#' @export
+#'
+log_warning <- function(msg){
+  msg = paste0(format(Sys.time(), "%F %T"), " [WARNING] ", msg)
+  message(msg)
+}
+
+#' Generates debug log
+#' @param msg - length of variable
+#' @import log4r
+#' @export
+#'
+log_debug <- function(msg){
+  msg = paste0(format(Sys.time(), "%F %T"), " [DEBUG] ", msg)
+  if(exists("log_level")){
+    if(log_level == "DEBUG"){
+      message(msg)
+    }
+  }
 }
 
 #' Generates filename based on the type of data generated
@@ -111,7 +140,13 @@ adjust_perplexity <- function(n, perplexity){
   return(perplexity)
 }
 
-
+#' Write session Info to json file
+#' @param file_name output file name
+#' @param dataset dataset name
+#' @param version version number of toolbox 
+#'
+#'@export
+#'
 write_package_list <- function(file_name, dataset, version=0.01){
   si = sessionInfo()
   pkgs = si$otherPkgs
@@ -123,3 +158,4 @@ write_package_list <- function(file_name, dataset, version=0.01){
              file_name,
              pretty = TRUE, na='string')
 }
+

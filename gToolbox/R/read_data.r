@@ -42,9 +42,13 @@ get.run.ids <- function(dataset, meta_data) {
 }
 
 
-get_sample_group <- function(sub_sample){
+#' @export
+#'
+get_sample_group <- function(sub_sample, raw=FALSE){
   new_sample_group = as.character(sub_sample$new.sample.group[1])
-  new_sample_group = gsub(" ", ".", new_sample_group)
+  if(!raw){
+    new_sample_group = gsub(" ", ".", new_sample_group)
+  }
   sample_group = strsplit(new_sample_group, "\\+")[[1]]
   return(sample_group)
 }
@@ -58,6 +62,12 @@ get_sample_group <- function(sub_sample){
 #'
 get.metadata <- function(sub_sample) {
   sample_group = get_sample_group(sub_sample)
+ 
+  if(is.na(sample_group)){
+    msg="Missing new_sample_group, check DB"
+    log_error(msg)
+    stop(msg)
+  }
   
   # check if we have feature combinations
   if (length(sample_group) > 1) {
@@ -92,6 +102,7 @@ get.sample.counts <- function(sample) {
     return(tmp)
   }else{
       stop(paste0("file not exists: ",sample["path"]))
+      #log_warning(paste0("file not exists: ",sample["path"]))
   }
 }
 
@@ -141,6 +152,13 @@ get.data <-
 
     sub_samples = meta_data[meta_data$dataset == datasets, ] 
     
+    #check if we have at least 2 samples
+    if(nrow(sub_samples)<2){
+      msg = "Dataset has only one sample"
+      log_error(msg)
+      stop(msg)
+    }
+    
     #filter sub_sample
     if (!is.na(filter)) {
       sub_samples = filter.meta.data(sub_samples, filter, filter_column)
@@ -154,6 +172,10 @@ get.data <-
     sub_samples$path = working_dir
     sub_samples$file = file
     sub_samples$path = apply(sub_samples, 1, get.path)
+    
+    # check if input count data exists
+    sub_samples = filter.check.count.input(sub_samples)
+    
     tmp = apply(sub_samples, 1, get.sample.counts)
     
     merge.all <- function(x, y) {
@@ -206,7 +228,7 @@ get.data <-
   }
 
 filter.count.matrix <- function(count_matrix, min_counts) {
-  filtered = count_matrix[rowSums(count_matrix) > min_counts, ]
+  filtered = count_matrix[rowSums(count_matrix) > min_counts, ,drop=F]
   
   if (nrow(filtered) == 0) {
     stop(paste("No features left with counts >", min_counts))
@@ -233,6 +255,27 @@ filter.meta.data <- function(meta_data, filter, column) {
   
   if (nrow(filtered) == 0) {
     stop(paste("No samples left for filter criteria:", filter))
+  }
+  
+  return(filtered)
+}
+
+#' Check if count data for sample exists
+#'
+#' @param sub_samples metda data of selected samples
+#' @export
+#' 
+filter.check.count.input <- function(sub_samples) {
+
+  filtered = sub_samples[file.exists(sub_samples$path),]
+  not_available = setdiff(sub_samples$sample, filtered$sample)
+  
+  if(length(not_available)>0){
+    message(log_warning(paste("No count data available: ", paste(not_available, collapse = ","))))
+  }
+  
+  if (nrow(filtered) == 0) {
+    stop(paste("No count data found for input samples"))
   }
   
   return(filtered)
@@ -299,6 +342,13 @@ get.conditons <- function(dataset_metadata, formula) {
   names = colnames(coldata[apply(coldata,2,function (x){
     length(unique(x))>1
   })])
+  
+  if(!("condition" %in% names)){
+    msg = "All conditions are the same"
+    log_error(msg)
+    stop(msg)
+  }
+  
   coldata = coldata[,names,drop = FALSE]
   
   # drop levels, if some age bins are not used

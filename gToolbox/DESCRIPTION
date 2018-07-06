@@ -22,5 +22,6 @@ Imports: ggplot2,
     randomForest,
     testthat,
     DESeq2,
-    genefilter
+    genefilter,
+    log4r
 RoxygenNote: 6.0.1

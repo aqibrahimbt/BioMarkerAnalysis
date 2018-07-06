@@ -31,12 +31,12 @@ library(gToolbox)
 Initialize global variables
 ```{r global}
 
-# datasets = "GSE65367" # for classification
+datasets = "GSE65367" # for classification
 # datasets = "GSE62809"
 # datasets = "GSE63046" # with covariates
 # datasets = "GSE63501"
 # datasets = "GSE39436"
-datasets = "GSE15229"
+# datasets = "GSE15229"
 
 formula = as.formula("~age+gender+condition")
 output_dir = "./output"
@@ -52,9 +52,9 @@ Get metadata and transcript counts of dataset list
 ## Read meta data flat file (deprecated)
 meta_data_path = "./data/meta_data/meta_data_20180209.tsv"
 meta_data_table = read.metadata.table(meta_data_path)
-meta_data = meta_data_table
+#meta_data = meta_data_table
 ## Read meta data from api DB
-#meta_data = get_metadata(datasets)
+meta_data = get_metadata(datasets)
 
 dataset_data = get.data(datasets,meta_data, working_dir, file = "featureCounts.tsv", formula=formula)
 
@@ -108,8 +108,8 @@ registerDoParallel(cl)
 # Select condition of interrest (count data, labels)
 comparisons = get_comparisons(dataset_data$conditions)
 dummy_comparision = comparisons$conditions[1,]
-samples_con1 = comparisons$samples[[dummy_comparision[1,1]]]
-samples_con2 = comparisons$samples[[dummy_comparision[1,2]]]
+samples_con1 = comparisons$samples[[as.character(dummy_comparision[1,1])]]
+samples_con2 = comparisons$samples[[as.character(dummy_comparision[1,2])]]
 
 norm_data = normalize_data(dataset_data, "deseq")
 sub_samples = c(samples_con1,samples_con2)
