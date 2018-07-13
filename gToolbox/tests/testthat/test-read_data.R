@@ -18,7 +18,7 @@ test_that("check covariates and conditions, update formula", {
   conditions = get.conditons(dataset_metadata, formula)
   conditions_ref = readRDS(file = "conditions.rds")
   #saveRDS(dataset_metadata, file = "./gToolbox/tests/testthat/conditions.rds")
-  expect_identical(conditions$conditions,conditions_ref)
+  expect_identical(conditions$conditions,conditions_ref$conditions)
   expect_equal(conditions$formula,formula_ref)
 })
 

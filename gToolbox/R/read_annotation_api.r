@@ -37,7 +37,7 @@ is_annotated <- function(json){
     return(FALSE)
   }
   status = json$customProperties$annotStatus
-  if(status==100 | status==10){
+  if(status==100 | status==10 | status==1){
     return(TRUE)
   }else{
     return(FALSE)

@@ -31,12 +31,16 @@ library(gToolbox)
 Initialize global variables
 ```{r global}
 
-datasets = "GSE65367" # for classification
+# datasets = "GSE65367" # for classification
 # datasets = "GSE62809"
 # datasets = "GSE63046" # with covariates
 # datasets = "GSE63501"
 # datasets = "GSE39436"
-# datasets = "GSE15229"
+datasets = "GSE15229"
+# datasets ="GSE31037" # psoriasis
+# datasets = "GSE37616" # renal
+# datasets = "GSE46579"
+log_level <<- "INFO"
 
 formula = as.formula("~age+gender+condition")
 output_dir = "./output"
@@ -55,6 +59,9 @@ meta_data_table = read.metadata.table(meta_data_path)
 #meta_data = meta_data_table
 ## Read meta data from api DB
 meta_data = get_metadata(datasets)
+
+meta_data = meta_data_table[meta_data_table$dataset==datasets,]
+#meta_data$new.sample.group = "tissue phenotype+disease details"
 
 dataset_data = get.data(datasets,meta_data, working_dir, file = "featureCounts.tsv", formula=formula)
 
@@ -81,7 +88,7 @@ Calculate differential feature expression
 
 dds <- de_result(dataset_data)
 sample_group = dataset_data$sample_group
-de_comparisons(dds, datasets, output_dir,sample_group,dataset_data$formula, T)
+de_comparisons(dds, datasets, output_dir,sample_group,dataset_data$formula, overwrite=F, shrink=T)
 
 ## Count data transformations 
 vst <- DESeq2::varianceStabilizingTransformation(dds)
@@ -106,7 +113,7 @@ registerDoParallel(cl)
 
 
 # Select condition of interrest (count data, labels)
-comparisons = get_comparisons(dataset_data$conditions)
+comparisons = get_comparisons(dataset_data$conditions, dataset_data$sample_group)
 dummy_comparision = comparisons$conditions[1,]
 samples_con1 = comparisons$samples[[as.character(dummy_comparision[1,1])]]
 samples_con2 = comparisons$samples[[as.character(dummy_comparision[1,2])]]

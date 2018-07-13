@@ -12,6 +12,8 @@ suppressWarnings({
 })
 
 
+#options(error=recover, show.error.locations=TRUE, warn=2)
+
 # read input parameter
 option_list = list(
   make_option(c("-o", "--out"), type="character", default=NULL, 
@@ -21,7 +23,9 @@ option_list = list(
   make_option(c("-i", "--input"), type="character", default= NULL, 
               help="working directory of input files", metavar="character"),
   make_option(c("-d", "--dataset"), type="character", default= NULL, 
-              help="dataset id", metavar="character")
+              help="dataset id", metavar="character"),
+  make_option(c("-w", "--overwrite"), type="logical", default= TRUE, 
+              help="don't overwrite existing files")
   ); 
 
 opt_parser = OptionParser(usage = "usage: %prog [options]", option_list=option_list,  add_help_option = TRUE);
@@ -31,10 +35,10 @@ datasets = opt$dataset
 output_dir = paste(opt$out,datasets,sep="/")
 meta_data_path =  opt$meta
 count_data_path =  opt$input
+overwrite = opt$overwrite
 dir.create(output_dir, showWarnings = FALSE)
 
-
-datasets = "GSE68085"
+datasets = "GSE69089"
 output_dir = "./output/"
 meta_data_path =  "./data/meta_data/meta_data_20180209.tsv"
 count_data_path =  "./data/test_data/"
@@ -42,34 +46,36 @@ dir.create(output_dir, showWarnings = FALSE)
 
 # redirect R output to file
 log_file = paste(output_dir,paste0(datasets,".log"),sep="/")
-print(log_running(datasets))
+log_level <<- "INFO"
+log_running(datasets)
 fp = file(log_file, open = "w")
 sink(file = fp)
 sink(file = fp, type = "message")
-print(log_running(datasets))
+log_running(datasets)
 
 err = F
 
 tryCatch({
     
   ## Read meta data flat file ##
-  #meta_data = get_metadata(datasets)
-  meta_data = read.metadata.table(meta_data_path)
+  log_debug("get_metadata")
+  meta_data = get_metadata(datasets)
+  #meta_data = read.metadata.table(meta_data_path)
   formula = as.formula("~age+gender+condition")
   
   #write list of packages
-  file_name = "./output/packages.json"
+  file_name = paste(output_dir,"packages.json",sep="/")
+ 
   write_package_list(file_name, datasets)
+  log_debug("get.data")
+  dataset_data = get.data(datasets,meta_data, count_data_path, file = "featureCounts.tsv", formula=formula)
   
-  sample_ids = get.sample.ids(datasets,meta_data)
-  run_ids = get.run.ids(datasets,meta_data)
-  
-  dataset_data = get.data(datasets,meta_data, count_data_path, file = "counts.1.tsv", formula=formula)
   sample_group = dataset_data$sample_group
   
   ## Calculate differential feature expression
+  log_debug("dds")
   dds <- de_result(dataset_data)
-  de_comparisons(dds, datasets, output_dir,sample_group,dataset_data$formula, T)
+  de_comparisons(dds, datasets, output_dir,sample_group,dataset_data$formula, overwrite=overwrite, shrink=T)
   
   
   ## Count data transformations 
@@ -83,26 +89,29 @@ tryCatch({
   
   dds_heatmap_distance(vst, datasets,output_dir,"vst")
   
-  dds_PCA(vst, datasets, output_dir,sample_group,"vst",T)
-  dds_TSNE(vst, datasets, output_dir,sample_group,5, "vst",T)
+  pca = dds_PCA(vst, datasets, output_dir,sample_group,"vst",T)
+  tsne = dds_TSNE(vst, datasets, output_dir,sample_group,5, "vst",T)
   
-  dds_PCA(rld, datasets, output_dir,sample_group,"rld",T)
-  dds_TSNE(rld, datasets, output_dir,sample_group,5, "rld",T)
-  
-  }, error = function(e) {
-    print(e)
-    err <<- T
+  pca = dds_PCA(rld, datasets, output_dir,sample_group,"rld",T)
+  tsne = dds_TSNE(rld, datasets, output_dir,sample_group,5, "rld",T)
+
+}, error = function(e) {
+  e <<- e
+  cat("ERROR: ", e$message, "\nin ")
+  print(e$call)
+  err <<- T
 })
 
 if(err){
-  print(log_error(datasets))
+  log_error(datasets)
   sink()
   sink(type = "message")
-  print(log_error(datasets))
+  log_error(datasets)
 }else{
-  print(log_done(datasets))
+  log_done(datasets)
   sink()
   sink(type = "message")
-  print(log_done(datasets))
+  log_done(datasets)
 }
+
 

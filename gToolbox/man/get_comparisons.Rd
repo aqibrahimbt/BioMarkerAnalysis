@@ -5,7 +5,7 @@
 \title{Get Comparisons for all feasible combinations. Uses the concept of degree of freedoms and compares only
 conditions in the sample group with the least differences. (n-1)}
 \usage{
-get_comparisons(conditions)
+get_comparisons(conditions, sample_group)
 }
 \description{
 Get Comparisons for all feasible combinations. Uses the concept of degree of freedoms and compares only
