@@ -25,11 +25,13 @@ option_list = list(
   make_option(c("-d", "--dataset"), type="character", default= NULL, 
               help="dataset id", metavar="character"),
   make_option(c("-w", "--overwrite"), type="logical", default= TRUE, 
-              help="don't overwrite existing files")
+              help="don't overwrite existing files", action="store_false")
   ); 
 
 opt_parser = OptionParser(usage = "usage: %prog [options]", option_list=option_list,  add_help_option = TRUE);
 opt = parse_args(opt_parser,print_help_and_exit = TRUE);
+
+BiocParallel::register(BiocParallel::SerialParam())
 
 datasets = opt$dataset
 output_dir = paste(opt$out,datasets,sep="/")
@@ -38,11 +40,11 @@ count_data_path =  opt$input
 overwrite = opt$overwrite
 dir.create(output_dir, showWarnings = FALSE)
 
-datasets = "GSE69089"
-output_dir = "./output/"
-meta_data_path =  "./data/meta_data/meta_data_20180209.tsv"
-count_data_path =  "./data/test_data/"
-dir.create(output_dir, showWarnings = FALSE)
+# datasets = "GSE69089"
+# output_dir = "./output/"
+# meta_data_path =  "./data/meta_data/meta_data_20180209.tsv"
+# count_data_path =  "./data/test_data/"
+# dir.create(output_dir, showWarnings = FALSE)
 
 # redirect R output to file
 log_file = paste(output_dir,paste0(datasets,".log"),sep="/")
@@ -61,6 +63,12 @@ tryCatch({
   log_debug("get_metadata")
   meta_data = get_metadata(datasets)
   #meta_data = read.metadata.table(meta_data_path)
+  
+  if(is.null(meta_data)){
+    log_error("Can't find valid meta data")
+    stop()
+  }
+  
   formula = as.formula("~age+gender+condition")
   
   #write list of packages

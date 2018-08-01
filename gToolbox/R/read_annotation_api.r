@@ -63,7 +63,7 @@ get_value <- function(sample,term){
 #' @export
 #'
 get_metadata_sample <- function(sample_name,dataset){
- 
+
   sample = get_json("samples",sample_name)
   header = c("gender","age","new sample group")
   
@@ -71,13 +71,17 @@ get_metadata_sample <- function(sample_name,dataset){
   
   # check if new sample group is present 
   if(is.null(new_sample_group$new.sample.group)){
-    msg="Missing new_sample_group, check DB"
-    log_error(msg)
-    stop(msg)
+    msg=paste0("Missing new_sample_group in [",dataset,"/",sample_name, "], check DB")
+    log_warning(msg)
+    #stop(msg)
+    return(NULL)
   }
   
   # update header
-  header = c(header,get_sample_group(new_sample_group, T))
+  new_sample_group_list = get_sample_group(new_sample_group, T)
+  new_sample_group_list = new_sample_group_list[!new_sample_group_list %in% header]
+  
+  header = c(header,new_sample_group_list)
   
   line = unlist(lapply(header, get_value, sample=sample))
   line["sample"] = sample_name
@@ -92,7 +96,7 @@ get_metadata_sample <- function(sample_name,dataset){
   
   tmp = list(line)
   names(tmp) = sample_name
-  return(data.frame(t(data.frame(tmp))))
+  return(data.frame(t(data.frame(tmp,stringsAsFactors=FALSE)),stringsAsFactors=FALSE))
 }
 
 #' @import jsonlite
@@ -103,26 +107,36 @@ get_metadata <- function(dataset){
   ignore_ssl()
   
   json = get_json("datasets",dataset)
-  
+  #log_warning(dataset)
   if(is_annotated(json)){
     samples = get_sample_ids(json)
     
     if(length(samples)<2){
-      msg = "Dataset has only one sample"
-      log_error(msg)
-      stop(msg)
+      msg = paste0("Dataset has only one sample [",dataset,"]")
+      log_warning(msg)
+      return(NULL)
     }
     
     output = lapply(samples, get_metadata_sample, dataset = dataset)
-    json_meta_data = dplyr::bind_rows(output)
     
-    json_meta_data$age = as.numeric(json_meta_data$age)
+    if(any(sapply(output,is.null))){
+      return(NULL)
+    }
+
+    #suppressWarnings({
+      #suppressMessages({
+        json_meta_data = dplyr::bind_rows(output)
+      #})
+    #})
+    
+    json_meta_data$age = as.numeric(as.character(json_meta_data$age))
     
     return(json_meta_data)
   }else{
-    msg = paste("Dataset annotation is not available:", dataset)
+    msg = paste0("Dataset annotation is not available [", dataset,"]")
     message(log_error(msg))
-    stop(msg)
+    #stop(msg)
+    return(NULL)
   }
 
 }

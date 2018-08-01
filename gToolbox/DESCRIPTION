@@ -23,5 +23,6 @@ Imports: ggplot2,
     testthat,
     DESeq2,
     genefilter,
-    log4r
+    log4r,
+    doParallel
 RoxygenNote: 6.0.1

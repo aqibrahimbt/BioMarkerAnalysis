@@ -64,13 +64,13 @@ basic_feature_elimination <- function(countdata, conditions , subset_sizes, repe
                      seeds = seeds)
   
   if(!validate$valid_comparison){
-    print(paste0("Cannot run since sample class is less than ",lower_limit))
-    return(0)
+    log_warning(paste0("Cannot run since sample class is less than ",lower_limit))
+    return(NULL)
   }else if(balanced){
-    print("Running stratified sampling")
+    log_running("Stratified sampling")
     rfProfile <- rfe(countdata, conditions, sizes = subset_sizes, sampsize=c(validate$min_sample_number,validate$min_sample_number), strata=conditions, rfeControl = ctrl, metric = metric)
   }else{
-    print("Running without stratified sampling")
+    log_running("Without stratified sampling")
     rfProfile <- rfe(countdata, conditions, sizes = subset_sizes, rfeControl = ctrl, metric = metric)
     
   }
@@ -173,24 +173,26 @@ feature_logscale <- function(opt_data, agg_data, rfProfile, output_dir){
 #'@param resampling
 #'@param repeats
 #'@param mtry
-#'@param stratified
+#'@param balanced
+#'@export
+#'
 #'strata refers to which feature to do stratified sampling on.
 #'sampsize refers to the size of the bootstrap samples to be taken from each class. These samples will be taken as input
 # for each tree.
-train_model <- function(count_data, conditions, model_type, resampling, repeats, mtry, stratified=FALSE) {
+train_model <- function(count_data, conditions, model_type,  mtry, repeats = 10, number = 5,  balanced=FALSE) {
   
-  check = stratified_sampling_check(conditions)
-  control <- trainControl(method="repeatedcv", number = resampling, repeats = repeats)
-  
+  validate = check_input_samples(conditions)
+  control <- trainControl(method="repeatedcv", number = number, repeats = repeats)
+    
   if(model_type == "rf"){
     tuneGrid = expand.grid(.mtry=mtry)
   }else{
     tuneGrid = expand.grid(mtry = mtry, min.node.size = 1, splitrule = 'gini')
   } 
   
-  if(all(c(check$stratified, stratified), TRUE)){
+  if(balanced){
     
-    print('Running Stratified Sampling')
+    log_running('Running Stratified Sampling')
     rf.model <- train(x = count_data,
                       y = as.factor(conditions),
                       method = model_type, 
@@ -199,10 +201,10 @@ train_model <- function(count_data, conditions, model_type, resampling, repeats,
                       verbose = F,
                       tuneGrid = tuneGrid,
                       strata=as.factor(conditions),
-                      sampsize = c(check$min_class,check$min_class))
+                      sampsize=c(validate$min_sample_number,validate$min_sample_number)
   }else{
     
-    print('Running Without Stratified Sampling')
+    log_running('Running Without Stratified Sampling')
     rf.model <- train(x = count_data,
                       y = as.factor(conditions),
                       method = model_type, 

@@ -10,7 +10,7 @@ de_result <- function(dataset_data) {
       colData = dataset_data$conditions,
       design = dataset_data$formula
     )
-  dds <- DESeq(dds,betaPrior = F)
+  dds <- DESeq(dds,betaPrior = FALSE,parallel=FALSE)
   return(dds)
 }
 
@@ -128,10 +128,10 @@ de_comparisons <- function(dds, datasets, outdir, sample_group, formula, overwri
         condition_2 = as.character(condition_pairs$condition_2[i])
         
         contrast = c("condition", condition_1, condition_2)
-        name = paste0(condition_1,condition_2)
-        file_name = generate_filename('de_comparison',outdir, '.json', name ,TRUE)
+        name = paste0(datasets,condition_1,condition_2)
+        file_name = generate_filename('de_comparison',outdir, '.json', name=name ,hash=TRUE)
         
-        # skip comparison if overwrite is False
+        # skip comparison if overwrite is false
         if(file.exists(file_name) & !overwrite){
           log_warning(paste0("File already exists: ", file_name))
           next

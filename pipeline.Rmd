@@ -23,7 +23,7 @@ suppressWarnings({
     devtools::test()
     })
 })
-
+#install.packages("gToolbox_0.90.tar.gz",repos = NULL, type="source")
 library(gToolbox)
 ```
 
@@ -33,13 +33,14 @@ Initialize global variables
 
 # datasets = "GSE65367" # for classification
 # datasets = "GSE62809"
-# datasets = "GSE63046" # with covariates
+datasets = "GSE63046" # with covariates
 # datasets = "GSE63501"
 # datasets = "GSE39436"
-datasets = "GSE15229"
+# datasets = "GSE15229"
 # datasets ="GSE31037" # psoriasis
 # datasets = "GSE37616" # renal
 # datasets = "GSE46579"
+# datasets = "GSE19812" missing new sample group
 log_level <<- "INFO"
 
 formula = as.formula("~age+gender+condition")
@@ -124,23 +125,24 @@ countdata = as.data.frame(t(norm_data[,sub_samples]))
 conditions = dataset_data$conditions[rownames(countdata),]
   
 #Step 2: Recursive feature elimination
-
-profiles = recursive_feature_elimination(countdata, conditions)
-
+  
+profiles = recursive_feature_elimination(countdata, conditions, repeats = 2, number = 5)
+  
 #####################################################################################################################
 #Step 3: Aggregate data for results
- 
 aggregated_data = aggregate_profiles(profiles)
-
+  
+profile_size = length(profiles)
+  
 #####################################################################################################################
 #Step 4: Get dataset with Optimized variables and save logscale
-optimized_data <-as.data.frame(norm_data[,rfProfile_2$optVariables])
-feature_logscale(optimized_data, aggregated_data, rfProfile_2, output_dir)
-
+optimized_data <-as.data.frame(countdata[,profiles[[profile_size]]$optVariables])
+feature_logscale(optimized_data, aggregated_data, profiles[[profile_size]], output_dir)
+  
 #####################################################################################################################
 #Step 5: Run Random Forest Classification
 mtry = c(1:5)
-rf.model <- train_model(norm_data, labels, "rf", resampling, repeats, mtry, stratified = F)
+rf.model <- train_model(optimized_data, conditions, "rf", mtry  ,repeats=2, number=5, balanced = F)
 
 
 ```
