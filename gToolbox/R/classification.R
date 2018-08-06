@@ -47,6 +47,7 @@ set_seeds <- function(repeats, resampling, subset_sizes){
 #' @param metric - metric to use e.g "Accuracy", "RMSE". 
 #' @param balanced - True or False (For stratified sampling)
 #' @import caret
+#' @import jsonlite
 #' @export
 #'
 basic_feature_elimination <- function(countdata, conditions , subset_sizes, repeats, number, method, metric, balanced=FALSE, lower_limit = 5){
@@ -126,13 +127,13 @@ aggregate_profiles <- function(profiles){
 
 
 #'Generates log scale of the data
-#'WIP - Work in Progress
+#'
 #'@param opt_data   Optimised data
 #'@param agg_data - Aggregated data from rfprofile
 #'@param rfProfile
 #'@export
 #'
-feature_logscale <- function(opt_data, agg_data, rfProfile, output_dir){
+feature_logscale <- function(opt_data, agg_data, rfProfile){
   logScale<-c()
   rfProfile <- rfProfile
   curX<-ncol(as.data.frame(opt_data))
@@ -160,35 +161,43 @@ feature_logscale <- function(opt_data, agg_data, rfProfile, output_dir){
       featNewJson[[i]][["optimal_number_of_features"]]=unbox(FALSE)
     }
   }
-  meta = list(dataset = datasets,  description = "Log Scale")
-  file_name = generate_filename('log_scale', output_dir, '.json')
-  
-  write_json(list('metadata' = meta, 'data' = featNewJson),file_name, pretty = TRUE)
+
+  return(featNewJson)
 }
 
+#' set number of trees based on sample size, due to performance the maximum tree number for
+#' classification with more than 100 samples is set to 10,000 otherwise to 100,000
+#' @param ntree number of trees
+#' @export
+set_number_of_trees <- function(ntree){
+  if(is.null(ntree)){
+    if(length(conditions)>100){
+      ntree = 10000
+    }else{
+      ntree = 100000
+    }
+  }
+  return(ntree)
+}
 
-#'@param count_data
-#'@param conditions
+#' Train model with cross validation 
+#'
+#'@param count_data count data, used for classification
+#'@param conditions classification labels 
 #'@param model_type eg: 'rf', 'ranger'
-#'@param resampling
-#'@param repeats
-#'@param mtry
-#'@param balanced
+#'@param number Either the number of folds or number of resampling iterations
+#'@param repeats For repeated k-fold cross-validation only: the number of complete sets of folds to compute
+#'@param balanced Balancing of imput samples 
+#'@param ntree number of trees, default 100,000 if sample size >100, set to 10,000
 #'@export
 #'
-#'strata refers to which feature to do stratified sampling on.
-#'sampsize refers to the size of the bootstrap samples to be taken from each class. These samples will be taken as input
-# for each tree.
-train_model <- function(count_data, conditions, model_type,  mtry, repeats = 10, number = 5,  balanced=FALSE) {
+
+train_model <- function(count_data, conditions, model_type, repeats = 10, number = 5,  balanced=FALSE, ntree=NULL) {
+
+  ntree =  set_number_of_trees(ntree)
   
   validate = check_input_samples(conditions)
-  control <- trainControl(method="repeatedcv", number = number, repeats = repeats)
-    
-  if(model_type == "rf"){
-    tuneGrid = expand.grid(.mtry=mtry)
-  }else{
-    tuneGrid = expand.grid(mtry = mtry, min.node.size = 1, splitrule = 'gini')
-  } 
+  control <- trainControl(method="repeatedcv", number = number, repeats = repeats,returnResamp="all")
   
   if(balanced){
     
@@ -199,9 +208,13 @@ train_model <- function(count_data, conditions, model_type,  mtry, repeats = 10,
                       metric = "Accuracy",
                       trControl = control,
                       verbose = F,
-                      tuneGrid = tuneGrid,
                       strata=as.factor(conditions),
-                      sampsize=c(validate$min_sample_number,validate$min_sample_number)
+                      sampsize=c(validate$min_sample_number,validate$min_sample_number),
+                      ntree = ntree,
+                      importance=TRUE,
+                      proximity=TRUE,
+                      )
+    
   }else{
     
     log_running('Running Without Stratified Sampling')
@@ -210,16 +223,166 @@ train_model <- function(count_data, conditions, model_type,  mtry, repeats = 10,
                       method = model_type, 
                       metric = "Accuracy",
                       trControl = control,
-                      verbose = F,
-                      tuneGrid = tuneGrid)
+                      tuneGrid = data.frame(mtry = 6),
+                      savePredictions = TRUE,
+                      verbose = F)
   }
   
   return(rf.model)
 }
 
 
+get_final_model <- function(countdata, conditions, balanced=FALSE, ntree=NULL, lower_limit=5){
+  
+  ntree =  set_number_of_trees(ntree)
+  mtry = get_mtry(ncol(countdata))
+  validate = check_input_samples(conditions, lower_limit)
+  
+  if(!validate$valid_comparison){
+    log_warning(paste0("Cannot run since sample class is less than ",lower_limit))
+    return(NULL)
+  }else if(balanced){
+    log_warning(paste("balanced sampling with number of samples in each class:", validate$min_sample_number))
+    rf.model <- randomForest(countdata,
+                             conditions,
+                             mtry=mtry,
+                             ntree=ntree,
+                             importance=TRUE,
+                             proximity=TRUE,
+                             strata=conditions,
+                             sampsize=c(validate$min_sample_number,validate$min_sample_number),
+                             keep.inbag = T)
+  }else{
+    log_warning("Unbalanced sampling")
+    rf.model <- randomForest(countdata,
+                             conditions,
+                             mtry=mtry,
+                             ntree=ntree,
+                             importance=TRUE,
+                             proximity=TRUE,
+                             keep.inbag = T)
+  }
+  
+  return(rf.model)
+}
 
+#' randomly split count data in train and test set. test = 1/fold; train = 1 - test
+#' @param fold fold
+#' @param countdata count data matrix
+#' @param conditions labels of count data matrix
+#' @param seed seed to make sampling reproducable 
+#' @exprot
+#' 
+split_train_test <- function(fold, countdata,conditions, seed){
+  set.seed(seed)
+  sample_number = nrow(countdata)
+  partition = trunc(sample_number/fold)
 
+  test_index <- sample(1:sample_number,partition,replace = F)
+  train <- countdata[ -test_index,]
+  test <- countdata[test_index,]
+  
+  condition_train <- conditions[-test_index]
+  condition_test <- conditions[test_index]
+  
+  return(list("train"=train,"train_condition"=condition_train,"test"=test,"test_condition"=condition_test))
+}
 
+#'Number of variables randomly sampled as candidates at each split.
+#'@param nfeature number of maximal features/variables (genes) 
+#'@export
+get_mtry <- function(nfeature){
+  mtry=floor(max(sqrt(nfeature),1))
+  return(mtry)
+}
+  
+cv_error <- function(cv){
+  
+  # get condition names
+  prediction.names = colnames(cv$predictions[[1]])
+  
+  # unlist predictions based on first condition
+  cv.pred = unlist(lapply(cv$predictions, function(x) x[,prediction.names[1]]))
+  cv.condition = unlist(cv$conditions)
+  
+  # label predictions
+  cv.pred.label = ifelse(cv.pred > 0.5, prediction.names[1], prediction.names[2])
+  
+  # create a table with real conditions and predictions
+  cv.table = as.data.frame(cv.pred.label, stringsAsFactors = F)
+  colnames(cv.table ) = c("prediction")
+  cv.table ["condition"] = as.character(cv.condition)
+  cv.table ["sample"] = names(cv.pred.label)
 
+  # summarize number of samples and number of correct predictions
+  cv.table.errorCV  = cv.table  %>%
+    group_by(sample) %>%
+    add_count(sample) %>% #count number of samples
+    add_count(prediction==condition) %>% #count number of samples where prediction == condition
+    summarise(sample_counts=max(n),
+              correct_prediction=max(nn))
+  
+  cv.table.errorCV["cross_validation_error"] = 1-cv.table.errorCV["correct_prediction"]/cv.table.errorCV["sample_counts"]
+  return(cv.table.errorCV)
+}
+
+cv_feature_importance <- function(cv){
+  cv_inportance = as.data.frame(do.call(rbind, cv$importance))
+  cv_inportance["feature_names"] =  rownames(cv_inportance)
+  
+  cv_importance_tmp = cv_inportance %>% 
+    group_by(feature_names) %>%
+    summarise(quantile = list(quantile(MeanDecreaseGini)))
+  
+  cv_importance_quant = as.data.frame(cv_importance_tmp$quantile)
+  colnames(cv_importance_quant) = cv_importance_tmp$feature_names
+  cv_importance_quant_df = as.data.frame(t(cv_importance_quant))
+  
+  return(cv_importance_quant_df)
+}
+
+write_to_json <- function(datasets, data, description, output_dirm, file_name){
+  meta = list(dataset = datasets,  description = description)
+  file_name = generate_filename(file_name, output_dir, '.json')
+  write_json(list('metadata' = meta, 'data' = data),file_name, pretty = TRUE)
+}
+
+cross_validation <- function(fold, repeats, countdata, conditions, ntree=NULL){
+  
+  ntree =  set_number_of_trees(ntree)
+  
+  test_predictions <-list()
+  test_conditions <-list()
+  test_importtance <- list()
+  
+  mtry = get_mtry(ncol(countdata))
+  
+  for(i in 1:repeats){
+    split = split_train_test(fold,countdata,conditions,i+22)
+    rf.model.cv<-randomForest(split$train,split$train_condition,mtry=mtry,importance=TRUE,proximity=TRUE, ntree=ntree)
+    test_predictions[[i]]<-predict(rf.model.cv,split$test,type='prob')
+    test_conditions[[i]]<-split$test_condition
+    test_importtance[[i]] <- rf.model.cv$importance
+  }
+  return(list("conditions"=test_conditions, "predictions"=test_predictions, "importance"=test_importtance))
+}
+
+roc <- function(final_rf_model){
+  rf_predictions <- predict(final_rf_model, type = 'prob')
+  pred<-prediction(rf_predictions[,2], conditions)
+  roc<-performance(pred, 'tpr', 'fpr')
+  auc<-performance(pred, 'auc')
+  x <- unlist(slot(roc, "x.values"))
+  y <- unlist(slot(roc, "y.values"))
+  auc_val = unlist(slot(auc, "y.values"))
+  
+  return(list("FP"=x,"TP"=y,"AUC"=auc_val))
+}
+
+oob <- function(final_rf_model){
+  oob<-final_rf_model$err.rate
+  oob_df = as.data.frame(oob)
+  oob_df["ntree"] = rownames(oob_df)
+  return(oob_df)
+}
 

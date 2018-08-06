@@ -24,5 +24,6 @@ Imports: ggplot2,
     DESeq2,
     genefilter,
     log4r,
-    doParallel
+    doParallel,
+    ROCR
 RoxygenNote: 6.0.1
