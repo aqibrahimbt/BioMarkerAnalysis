@@ -23,7 +23,9 @@ basic_feature_elimination(countdata, conditions, subset_sizes, repeats, number,
 
 \item{metric}{- metric to use e.g "Accuracy", "RMSE".}
 
-\item{balanced}{- True or False (For stratified sampling)}
+\item{balanced}{- specify if the model will build based on balanced input samples (default: FALSE)}
+
+\item{lower_limit}{- minimum number of samples per class (default: 5)}
 }
 \description{
 Recursive feature elimination (Backwards Feature Selection) incorporating resampling. Returns a class object with selcted features properties

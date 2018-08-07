@@ -2,19 +2,19 @@
 % Please edit documentation in R/classification.R
 \name{split_train_test}
 \alias{split_train_test}
-\title{randomly split count data in train and test set. test = 1/fold; train = 1 - test}
+\title{Randomly split count data in train and test set. test = 1/fold; train = 1 - test}
 \usage{
 split_train_test(fold, countdata, conditions, seed)
 }
 \arguments{
-\item{fold}{fold}
+\item{fold}{- number of folds for resampling}
 
-\item{countdata}{count data matrix}
+\item{countdata}{- count data matrix}
 
-\item{conditions}{labels of count data matrix}
+\item{conditions}{- labels of count data matrix}
 
-\item{seed}{seed to make sampling reproducable}
+\item{seed}{- seed to make sampling reproducable}
 }
 \description{
-randomly split count data in train and test set. test = 1/fold; train = 1 - test
+Randomly split count data in train and test set. test = 1/fold; train = 1 - test
 }

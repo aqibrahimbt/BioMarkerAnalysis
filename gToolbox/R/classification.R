@@ -45,7 +45,8 @@ set_seeds <- function(repeats, resampling, subset_sizes){
 #' @param number - number of folds for resampling
 #' @param method eg: cv or repeatedcv
 #' @param metric - metric to use e.g "Accuracy", "RMSE". 
-#' @param balanced - True or False (For stratified sampling)
+#' @param balanced - specify if the model will build based on balanced input samples (default: FALSE)
+#' @param lower_limit - minimum number of samples per class (default: 5) 
 #' @import caret
 #' @import jsonlite
 #' @export
@@ -87,7 +88,7 @@ basic_feature_elimination <- function(countdata, conditions , subset_sizes, repe
 #' @param number - number of folds for resampling
 #' @param method eg: cv or repeatedcv
 #' @param metric - metric to use e.g "Accuracy", "RMSE". 
-#' @param balanced - True or False (For stratified sampling)
+#' @param balanced - specify if the model will build based on balanced input samples (default: FALSE)
 #' @param two_step - use a second rfe two improve feature size
 #' @export
 #'
@@ -109,8 +110,9 @@ recursive_feature_elimination <- function(countdata, conditions, method='repeate
 
 
 
-#'Aggregates the results from the rfprofiles from feature elimination step
-#'@param rfProfile - profiles from feature elimination of the dataset
+#'Aggregates the results from the random forest profile from recursive feature elimination step
+#'
+#'@param profiles - profiles from feature elimination of the dataset
 #'@export
 #'
 aggregate_profiles <- function(profiles){
@@ -126,11 +128,11 @@ aggregate_profiles <- function(profiles){
 }
 
 
-#'Generates log scale of the data
+#'Generates log scale of aggregated accuracy data of recursive feature elimination
 #'
-#'@param opt_data   Optimised data
-#'@param agg_data - Aggregated data from rfprofile
-#'@param rfProfile
+#'@param opt_data - reduced/optimized feature list
+#'@param agg_data - aggregated accuracy data of recursive feature elimination
+#'@param rfProfile - random forest model/profile
 #'@export
 #'
 feature_logscale <- function(opt_data, agg_data, rfProfile){
@@ -180,15 +182,17 @@ set_number_of_trees <- function(ntree){
   return(ntree)
 }
 
-#' Train model with cross validation 
+#' Optimize random forest model with cross validation
+#' optimization parameter: mtry 
 #'
 #'@param count_data count data, used for classification
 #'@param conditions classification labels 
 #'@param model_type eg: 'rf', 'ranger'
 #'@param number Either the number of folds or number of resampling iterations
 #'@param repeats For repeated k-fold cross-validation only: the number of complete sets of folds to compute
-#'@param balanced Balancing of imput samples 
+#'@param balanced specify if the model will build based on balanced input samples (default: FALSE)
 #'@param ntree number of trees, default 100,000 if sample size >100, set to 10,000
+#'@import caret
 #'@export
 #'
 
@@ -231,7 +235,18 @@ train_model <- function(count_data, conditions, model_type, repeats = 10, number
   return(rf.model)
 }
 
-
+#' Calculate the final random forest model based on the reduced/optimized feature set
+#' The final model can be balanced or un-balanced
+#' 
+#' @param countdata count data matrix
+#' @param conditions labels of count data matrix
+#' @param balanced specify if the model will build based on balanced input samples (default: FALSE)
+#' @param ntree number of trees to use for random forest model
+#' @param lower_limit - minimum number of samples per class (default: 5) 
+#' @param ntree number of trees, default 100,000 if sample size >100, set to 10,000
+#' @import randomForest
+#' @export
+#' 
 get_final_model <- function(countdata, conditions, balanced=FALSE, ntree=NULL, lower_limit=5){
   
   ntree =  set_number_of_trees(ntree)
@@ -242,7 +257,7 @@ get_final_model <- function(countdata, conditions, balanced=FALSE, ntree=NULL, l
     log_warning(paste0("Cannot run since sample class is less than ",lower_limit))
     return(NULL)
   }else if(balanced){
-    log_warning(paste("balanced sampling with number of samples in each class:", validate$min_sample_number))
+    log_running(paste("balanced sampling with number of samples in each class:", validate$min_sample_number))
     rf.model <- randomForest(countdata,
                              conditions,
                              mtry=mtry,
@@ -253,7 +268,7 @@ get_final_model <- function(countdata, conditions, balanced=FALSE, ntree=NULL, l
                              sampsize=c(validate$min_sample_number,validate$min_sample_number),
                              keep.inbag = T)
   }else{
-    log_warning("Unbalanced sampling")
+    log_running("Unbalanced sampling")
     rf.model <- randomForest(countdata,
                              conditions,
                              mtry=mtry,
@@ -266,11 +281,12 @@ get_final_model <- function(countdata, conditions, balanced=FALSE, ntree=NULL, l
   return(rf.model)
 }
 
-#' randomly split count data in train and test set. test = 1/fold; train = 1 - test
-#' @param fold fold
-#' @param countdata count data matrix
-#' @param conditions labels of count data matrix
-#' @param seed seed to make sampling reproducable 
+#' Randomly split count data in train and test set. test = 1/fold; train = 1 - test
+#' 
+#' @param fold - number of folds for resampling
+#' @param countdata - count data matrix
+#' @param conditions - labels of count data matrix
+#' @param seed - seed to make sampling reproducable 
 #' @exprot
 #' 
 split_train_test <- function(fold, countdata,conditions, seed){
@@ -288,14 +304,22 @@ split_train_test <- function(fold, countdata,conditions, seed){
   return(list("train"=train,"train_condition"=condition_train,"test"=test,"test_condition"=condition_test))
 }
 
-#'Number of variables randomly sampled as candidates at each split.
-#'@param nfeature number of maximal features/variables (genes) 
-#'@export
+#' Number of variables randomly sampled as candidates at each split.
+#'
+#' @param nfeature number of maximal features/variables (genes) 
+#' @export
+#'
 get_mtry <- function(nfeature){
   mtry=floor(max(sqrt(nfeature),1))
   return(mtry)
 }
-  
+
+
+#' Get cross validation error based on all models used by cross validation
+#' 
+#' @param cv cross validation object, including for all repeats predictions, conditions and feature importance values 
+#' @export
+#' 
 cv_error <- function(cv){
   
   # get condition names
@@ -326,6 +350,11 @@ cv_error <- function(cv){
   return(cv.table.errorCV)
 }
 
+#' Get feature importance of all models used by cross validation
+#' 
+#' @param cv cross validation object, including for all repeats predictions, conditions and feature importance values 
+#' @export
+#' 
 cv_feature_importance <- function(cv){
   cv_inportance = as.data.frame(do.call(rbind, cv$importance))
   cv_inportance["feature_names"] =  rownames(cv_inportance)
@@ -341,12 +370,32 @@ cv_feature_importance <- function(cv){
   return(cv_importance_quant_df)
 }
 
-write_to_json <- function(datasets, data, description, output_dirm, file_name){
-  meta = list(dataset = datasets,  description = description)
+#' Write data to json file 
+#' 
+#' @param dataset - data set name 
+#' @param data - arbitray data set
+#' @param description - description of input data set
+#' @param output_dir - path to output directory 
+#' @param file_name - json file name, without extension
+#' @import jsonlite
+#' @export
+#' 
+write_to_json <- function(dataset, data, description, output_dir, file_name){
+  meta = list(dataset = dataset,  description = description)
   file_name = generate_filename(file_name, output_dir, '.json')
   write_json(list('metadata' = meta, 'data' = data),file_name, pretty = TRUE)
 }
 
+#' Random forest model cross validation with n folds and m repeats 
+#'
+#' @param countdata count data matrix
+#' @param conditions labels of count data matrix
+#' @param repeats - the cross-validation procedure is repeated n times
+#' @param fold - number of folds for resamplin
+#' @param ntree number of trees, default 100,000 if sample size >100, set to 10,000
+#' @import randomForest
+#' @export
+#' 
 cross_validation <- function(fold, repeats, countdata, conditions, ntree=NULL){
   
   ntree =  set_number_of_trees(ntree)
@@ -367,8 +416,13 @@ cross_validation <- function(fold, repeats, countdata, conditions, ntree=NULL){
   return(list("conditions"=test_conditions, "predictions"=test_predictions, "importance"=test_importtance))
 }
 
-roc <- function(final_rf_model){
-  rf_predictions <- predict(final_rf_model, type = 'prob')
+#' Receiver Operating Characteristic curve (ROC) and area under this curve (AUC)
+#' 
+#' @param rf_model random forest model 
+#' @import ROCR
+#' @export
+roc <- function(rf_model){
+  rf_predictions <- predict(rf_model, type = 'prob')
   pred<-prediction(rf_predictions[,2], conditions)
   roc<-performance(pred, 'tpr', 'fpr')
   auc<-performance(pred, 'auc')
@@ -379,8 +433,12 @@ roc <- function(final_rf_model){
   return(list("FP"=x,"TP"=y,"AUC"=auc_val))
 }
 
-oob <- function(final_rf_model){
-  oob<-final_rf_model$err.rate
+#' Out-of-bag error(OOB) obtained for each independent tree that forms the forest
+#' 
+#' @param rf_model random forest model 
+#' @export
+oob <- function(rf_model){
+  oob<-rf_model$err.rate
   oob_df = as.data.frame(oob)
   oob_df["ntree"] = rownames(oob_df)
   return(oob_df)

@@ -2,13 +2,13 @@
 % Please edit documentation in R/classification.R
 \name{aggregate_profiles}
 \alias{aggregate_profiles}
-\title{Aggregates the results from the rfprofiles from feature elimination step}
+\title{Aggregates the results from the random forest profile from recursive feature elimination step}
 \usage{
 aggregate_profiles(profiles)
 }
 \arguments{
-\item{rfProfile}{- profiles from feature elimination of the dataset}
+\item{profiles}{- profiles from feature elimination of the dataset}
 }
 \description{
-Aggregates the results from the rfprofiles from feature elimination step
+Aggregates the results from the random forest profile from recursive feature elimination step
 }

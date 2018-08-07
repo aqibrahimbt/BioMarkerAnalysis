@@ -2,7 +2,8 @@
 % Please edit documentation in R/classification.R
 \name{train_model}
 \alias{train_model}
-\title{Train model with cross validation}
+\title{Optimize random forest model with cross validation
+optimization parameter: mtry}
 \usage{
 train_model(count_data, conditions, model_type, repeats = 10, number = 5,
   balanced = FALSE, ntree = NULL)
@@ -18,10 +19,11 @@ train_model(count_data, conditions, model_type, repeats = 10, number = 5,
 
 \item{number}{Either the number of folds or number of resampling iterations}
 
-\item{balanced}{Balancing of imput samples}
+\item{balanced}{specify if the model will build based on balanced input samples (default: FALSE)}
 
 \item{ntree}{number of trees, default 100,000 if sample size >100, set to 10,000}
 }
 \description{
-Train model with cross validation
+Optimize random forest model with cross validation
+optimization parameter: mtry
 }

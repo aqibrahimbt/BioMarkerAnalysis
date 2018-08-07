@@ -4,7 +4,7 @@
 \alias{filter.check.count.input}
 \title{Check if count data for sample exists}
 \usage{
-\method{filter}{check.count.input}(sub_samples)
+filter.check.count.input(sub_samples)
 }
 \arguments{
 \item{sub_samples}{metda data of selected samples}

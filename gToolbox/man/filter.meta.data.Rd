@@ -6,7 +6,7 @@
 The function returns all samples of a dataset if one sample
 fulfils the filter criteria}
 \usage{
-\method{filter}{meta.data}(meta_data, filter, column)
+filter.meta.data(meta_data, filter, column)
 }
 \arguments{
 \item{meta_data}{meta data}

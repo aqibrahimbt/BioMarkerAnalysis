@@ -22,7 +22,7 @@ recursive_feature_elimination(countdata, conditions, method = "repeatedcv",
 
 \item{metric}{- metric to use e.g "Accuracy", "RMSE".}
 
-\item{balanced}{- True or False (For stratified sampling)}
+\item{balanced}{- specify if the model will build based on balanced input samples (default: FALSE)}
 
 \item{two_step}{- use a second rfe two improve feature size}
 

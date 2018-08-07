@@ -59,7 +59,7 @@ meta_data_path = "./data/meta_data/meta_data_20180209.tsv"
 meta_data_table = read.metadata.table(meta_data_path)
 meta_data = meta_data_table
 ## Read meta data from api DB
-meta_data = get_metadata(datasets)
+#meta_data = get_metadata(datasets)
 
 meta_data = meta_data_table[meta_data_table$dataset==datasets,]
 #meta_data$new.sample.group = "tissue phenotype+disease details"
@@ -106,17 +106,12 @@ dds_TSNE(vst, datasets, output_dir,sample_group,5, "vst",T)
 
 Testing Classification
 ```{r}
-library(randomForest)
 library(doParallel)
-library(ranger)
-library(ROCR)
-library(dplyr)
-library(tidyr)
-library(jsonlite)
+
 cl <- makeCluster(2)
 registerDoParallel(cl)
 
-
+#####
 # Select condition of interrest (count data, labels)
 comparisons = get_comparisons(dataset_data$conditions, dataset_data$sample_group)
 dummy_comparision = comparisons$conditions[1,]
@@ -127,60 +122,49 @@ norm_data = normalize_data(dataset_data, "deseq")
 sub_samples = c(samples_con1,samples_con2)
 countdata = as.data.frame(t(norm_data[,sub_samples]))
 conditions = dataset_data$conditions[rownames(countdata),]
-  
+
+#####  
 #recursive feature elimination
 profiles = recursive_feature_elimination(countdata, conditions, repeats = 2, number = 5)
 
-#aggregate accuracy data for results
+#####
+# aggregate accuracy data for results
 aggregated_data = aggregate_profiles(profiles)
 profile_size = length(profiles)
-  
+
+##### 
 #get dataset with Optimized variables and save logscale
 optimized_data <-as.data.frame(countdata[,profiles[[profile_size]]$optVariables])
 cv_feature_elimination_log = feature_logscale(optimized_data, aggregated_data, profiles[[profile_size]])
 
 write_to_json(datasets, cv_feature_elimination_log, "Cross-validated prediction error of random forest models trained by incrementally adding features according to their gini ranking.", output_dir, "feature_selection")
 
+#####
 # calculate final model
 final_rf_model = get_final_model(optimized_data,conditions)
 
+#####
 # corss validation
 cv_final_model = cross_validation(5,5,optimized_data,conditions)
 
+#####
 # cross validation error
 cv_err = cv_error(cv_final_model)
 write_to_json(datasets, cv_err, "Cross-validated error plot per sample", output_dir, "cv_error")
 
+#####
 # cross validation feature importance
 cv_fi = cv_feature_importance(cv_final_model,output_dir)
 write_to_json(datasets, cv_fi, "Quantiles of cross-validation feature importance", output_dir, "cv_feature_importance")
 
+#####
 # roc curve and auc
 roc_values = roc(final_rf_model)
 write_to_json(datasets, roc_values , "ROC curve and AUC value", output_dir, "roc")
 
+#####
 # out of back error
 oob_values = oob(final_rf_model)
 write_to_json(datasets, oob_values , "out-of-bag error(OOB) obtained for each independent tree that forms the forest", output_dir, "oob")
 
-```
-
-```{r}
-library(caret)
-library(mlbench)
-library(Hmisc)
-library(randomForest)
-
-data(PimaIndiansDiabetes)
-data = PimaIndiansDiabetes
-
-set.seed(1234)
-ind <- sample(2, nrow(data), replace=TRUE, prob=c(0.7, 0.3))
-trainData <- data[ind==1,]
-validationData <- data[ind==2,]
-trainData <- trainData[complete.cases(trainData),]
-validationData <- validationData[complete.cases(validationData),]
-
-trainData[,1:8]
-trainData[,9]
 ```

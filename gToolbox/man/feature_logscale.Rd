@@ -2,17 +2,17 @@
 % Please edit documentation in R/classification.R
 \name{feature_logscale}
 \alias{feature_logscale}
-\title{Generates log scale of the data
-WIP - Work in Progress}
+\title{Generates log scale of aggregated accuracy data of recursive feature elimination}
 \usage{
-feature_logscale(opt_data, agg_data, rfProfile, output_dir)
+feature_logscale(opt_data, agg_data, rfProfile)
 }
 \arguments{
-\item{opt_data}{Optimised data}
+\item{opt_data}{- reduced/optimized feature list}
 
-\item{agg_data}{- Aggregated data from rfprofile}
+\item{agg_data}{- aggregated accuracy data of recursive feature elimination}
+
+\item{rfProfile}{- random forest model/profile}
 }
 \description{
-Generates log scale of the data
-WIP - Work in Progress
+Generates log scale of aggregated accuracy data of recursive feature elimination
 }
