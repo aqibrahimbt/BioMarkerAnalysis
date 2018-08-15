@@ -31,13 +31,13 @@ library(gToolbox)
 Initialize global variables
 ```{r global}
 
-datasets = "GSE65367" # for classification
+# datasets = "GSE65367" # for classification
 # datasets = "GSE62809"
 # datasets = "GSE63046" # with covariates
 # datasets = "GSE63501"
 # datasets = "GSE39436"
 # datasets = "GSE15229"
-# datasets ="GSE31037" # psoriasis
+datasets ="GSE31037" # psoriasis
 # datasets = "GSE37616" # renal
 # datasets = "GSE46579" # alzheimer 
 # datasets = "GSE19812" missing new sample group
@@ -55,14 +55,12 @@ Get metadata and transcript counts of dataset list
 ```{r io}
 
 ## Read meta data flat file (deprecated)
-meta_data_path = "./data/meta_data/meta_data_20180209.tsv"
-meta_data_table = read.metadata.table(meta_data_path)
-meta_data = meta_data_table
+#meta_data_path = "./data/meta_data/meta_data_20180209.tsv"
+#meta_data_table = read.metadata.table(meta_data_path)
+#meta_data = meta_data_table
+#meta_data = meta_data_table[meta_data_table$dataset==datasets,]
 ## Read meta data from api DB
-#meta_data = get_metadata(datasets)
-
-meta_data = meta_data_table[meta_data_table$dataset==datasets,]
-#meta_data$new.sample.group = "tissue phenotype+disease details"
+meta_data = get_metadata(datasets)
 
 dataset_data = get.data(datasets,meta_data, working_dir, file = "featureCounts.tsv", formula=formula)
 
@@ -89,7 +87,7 @@ Calculate differential feature expression
 
 dds <- de_result(dataset_data)
 sample_group = dataset_data$sample_group
-de_comparisons(dds, datasets, output_dir,sample_group,dataset_data$formula, overwrite=F, shrink=T)
+de_comparisons(dds, datasets, output_dir,sample_group,dataset_data$formula, dataset_data$summary$mapping$genome, overwrite=F, shrink=T)
 
 ## Count data transformations 
 vst <- DESeq2::varianceStabilizingTransformation(dds)

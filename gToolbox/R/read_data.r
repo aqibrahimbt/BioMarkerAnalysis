@@ -71,8 +71,7 @@ get.metadata <- function(sub_sample) {
   
   # check if we have feature combinations
   if (length(sample_group) > 1) {
-    new_condition = do.call(paste, c(sub_sample[, sample_group], list(sep =
-                                                                        "&")))
+    new_condition = do.call(paste, c(sub_sample[, sample_group], list(sep = "&")))
   } else{
     new_condition = sub_sample[, sample_group]
   }
@@ -164,7 +163,7 @@ get.data <-
       sub_samples = filter.meta.data(sub_samples, filter, filter_column)
     }
     
-    #summary_json = read_summary_json(working_dir,datasets,sub_samples$sample[1])
+    summary_json = read_summary_json(working_dir,datasets,sub_samples$sample[1])
     
     # extract only one meta data line per sample, if more than one run exists
     sub_samples = sub_samples[!duplicated(sub_samples$sample), ]
@@ -221,8 +220,8 @@ get.data <-
         feature.length = feature.length,
         conditions = conditions,
         formula=as.formula(formula),
-        sample_group = get_sample_group(sub_samples)
-        
+        sample_group = get_sample_group(sub_samples),
+        summary = summary_json
       )
     )
   }
@@ -419,7 +418,7 @@ find.collinearity <- function(coldata,formula, maxVif=10){
 }
 
 read_summary_json <- function(working_dir,dataset,sample){
-  path = file.path(paste(working_dir,dataset,sample,"summary/resources.json",sep="/"))
+  path = file.path(paste(working_dir,dataset,sample,"summary/summary.json",sep="/"))
   summary_json = fromJSON(path)
   return(summary_json)
 }

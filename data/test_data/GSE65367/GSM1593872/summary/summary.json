@@ -1,5 +1,6 @@
 {
  "input_reads": {
+  "species": "hsa",
   "experiment": "GSE65367",
   "sample": "GSM1593872",
   "runs": ["SRR1777161"],
@@ -41,6 +42,7 @@
   }
  },
  "mapping": {
+  "genome": "gencode_28",
   "soft_clipping": false,
   "specific_mapping_unique": {
    "count": 5913751,
@@ -71,6 +73,6 @@
  "info": {
   "error_msg": "none",
   "last_mode": "QUANT",
-  "last_modified": "2018-06-24 18:07:10"
+  "last_modified": "2018-07-20 11:50:50"
  }
 }

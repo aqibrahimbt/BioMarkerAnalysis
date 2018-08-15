@@ -42,6 +42,28 @@ intersection_count <- function(condition_1,condition_2){
   return(count)
 }
 
+#' To always get the same "fold change direction" we have to set the healthy comparison as first condition
+#' return position of comparison
+#' @export
+get_healthy_position <- function(comparison_with_healthy,condition_matrix,disease_pos){
+  healthy_position = 1
+  # set healthy sample as condition 1
+  if(comparison_with_healthy){
+    healthy_position = which(condition_matrix[,disease_pos] == "healthy")
+  }else{
+    row_len = length(condition_matrix[1,])
+    healthy_position = grep("healthy",condition_matrix)
+    healthy_position = ceiling(healthy_position / row_len)[1]
+  }
+  
+  if(is.na(healthy_position)){
+    healthy_position = 1
+  }
+  
+  return(healthy_position)
+}
+
+
 #' Get Comparisons for all feasible combinations. Uses the concept of degree of freedoms and compares only
 #' conditions in the sample group with the least differences. (n-1)
 #' @import stringr
@@ -74,6 +96,16 @@ get_comparisons <- function(conditions, sample_group){
     # check if it is a comparison with healthy
     condition_matrix = do.call(rbind,splits)
     comparison_with_healthy = "healthy" %in% condition_matrix[,disease_pos]
+
+    # identify condition with healthy label
+    healthy_position = get_healthy_position(comparison_with_healthy,condition_matrix,disease_pos)
+    # swap conditions if healthy is not the first condition
+    if(healthy_position!=1){
+      tmp = condition_2
+      condition_2 = condition_1
+      condition_1 = tmp
+    }
+    
     
     # degree of freedom should be <= 1
     df = count - common
@@ -112,7 +144,7 @@ row_Means <- function(lvl,dds){
 #' @import SummarizedExperiment
 #' @export
 #'
-de_comparisons <- function(dds, datasets, outdir, sample_group, formula, overwrite=T, shrink=T) {
+de_comparisons <- function(dds, datasets, outdir, sample_group, formula, genome, overwrite=T, shrink=T) {
   # create an output directory
   conditions = colData(dds)
   valid_comparisons = get_comparisons(conditions,sample_group)
@@ -165,7 +197,7 @@ de_comparisons <- function(dds, datasets, outdir, sample_group, formula, overwri
         resOrdered <- as.data.frame(res[order(res$pvalue), ])
         
         # TODO get genome id
-        genome = "gencode_28"
+        # genome = "gencode_28"
             
         # set meta da information: samples per condition, condition names and sample key values
         meta = generate_res_meta(datasets,

@@ -5,8 +5,8 @@
 \title{DE Comparisons for all feasible combinations. Uses the concept of degree of freedoms and compares only
 conditions in the sample group with the least differences. (n-1)}
 \usage{
-de_comparisons(dds, datasets, outdir, sample_group, formula, overwrite = T,
-  shrink = T)
+de_comparisons(dds, datasets, outdir, sample_group, formula, genome,
+  overwrite = T, shrink = T)
 }
 \arguments{
 \item{dds}{- dds object}

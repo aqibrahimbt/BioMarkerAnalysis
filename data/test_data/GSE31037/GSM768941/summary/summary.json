@@ -1,0 +1,78 @@
+{
+ "input_reads": {
+  "species": "hsa",
+  "experiment": "GSE31037",
+  "sample": "GSM768941",
+  "runs": ["SRR330857"],
+  "paired": false,
+  "strand_specific": false,
+  "sanger_phred_score": true,
+  "raw_reads": 2173425,
+  "min_length": 36,
+  "max_length": 36,
+  "deduplicated": {
+   "count": 533663,
+   "fraction": 0.2455
+  },
+  "overrepresented": {
+   "count": 861819,
+   "fraction": 0.3965
+  },
+  "adapter": {
+   "count": 1238927,
+   "fraction": 0.57
+  },
+  "adapter3p": ["ATCTCGTATGCC"],
+  "adapter5p": [""],
+  "quality_filtered": {
+   "count": 244127,
+   "fraction": 0.1123
+  },
+  "synthetic": {
+   "count": 197133,
+   "fraction": 0.0907
+  },
+  "rrna": {
+   "count": 147222,
+   "fraction": 0.06774
+  },
+  "high_quality": {
+   "count": 1584943,
+   "fraction": 0.7292
+  }
+ },
+ "mapping": {
+  "genome": "gencode_28",
+  "soft_clipping": false,
+  "specific_mapping_unique": {
+   "count": 812106,
+   "fraction": 0.5124
+  },
+  "specific_mapping_multi": {
+   "count": 482352,
+   "fraction": 0.3043
+  },
+  "specific_unmapped": {
+   "count": 290485,
+   "fraction": 0.1833
+  },
+  "sensitive_mapping_unique": {
+   "count": 65822,
+   "fraction": 0.04153
+  },
+  "sensitive_mapping_multi": {
+   "count": 40705,
+   "fraction": 0.02568
+  },
+  "sensitive_unmapped": {
+   "count": 183958,
+   "fraction": 0.1161
+  }
+ },
+ "pathogens": {"restricted_pathogen_mapping": false},
+ "info": {
+  "error_msg": "none",
+  "last_mode": "QUANT",
+  "last_modified": "2018-07-20 11:38:51"
+ }
+}
