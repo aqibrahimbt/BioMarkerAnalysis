@@ -37,8 +37,8 @@ Initialize global variables
 # datasets = "GSE63501"
 # datasets = "GSE39436"
 # datasets = "GSE15229"
-datasets ="GSE31037" # psoriasis
-# datasets = "GSE37616" # renal
+# datasets ="GSE31037" # psoriasis
+datasets = "GSE37616" # renal
 # datasets = "GSE46579" # alzheimer 
 # datasets = "GSE19812" missing new sample group
 log_level <<- "INFO"
@@ -142,7 +142,7 @@ write_to_json(datasets, cv_feature_elimination_log, "Cross-validated prediction 
 final_rf_model = get_final_model(optimized_data,conditions)
 
 #####
-# corss validation
+# cross validation
 cv_final_model = cross_validation(5,5,optimized_data,conditions)
 
 #####
@@ -166,3 +166,39 @@ oob_values = oob(final_rf_model)
 write_to_json(datasets, oob_values , "out-of-bag error(OOB) obtained for each independent tree that forms the forest", output_dir, "oob")
 
 ```
+Testing RCE-SVM
+```{r}
+
+no_clusters = 10
+required_no_clusters = 5
+cond <- as.data.frame(conditions)
+input <- as.data.frame(cbind(conditions, countdata))
+colnames(input)[1] <- 'Conditions'
+optimized_data <- suppressWarnings(rce_svm(input, no_clusters, required_no_clusters))
+
+final_rf_model <- get_final_model(optimized_data,conditions)
+# cross validation
+cv_final_model = cross_validation(5,5,optimized_data,conditions)
+
+#####
+# cross validation error
+cv_err = cv_error(cv_final_model)
+write_to_json(datasets, cv_err, "Cross-validated error plot per sample", output_dir, "cv_error")
+
+#####
+# cross validation feature importance
+cv_fi = cv_feature_importance(cv_final_model,output_dir)
+write_to_json(datasets, cv_fi, "Quantiles of cross-validation feature importance", output_dir, "cv_feature_importance")
+
+#####
+# roc curve and auc
+roc_values = roc(final_rf_model)
+write_to_json(datasets, roc_values , "ROC curve and AUC value", output_dir, "roc")
+
+#####
+# out of back error
+oob_values = oob(final_rf_model)
+write_to_json(datasets, oob_values , "out-of-bag error(OOB) obtained for each independent tree that forms the forest", output_dir, "oob")
+
+```
+

@@ -92,7 +92,8 @@ basic_feature_elimination <- function(countdata, conditions , subset_sizes, repe
 #' @param two_step - use a second rfe two improve feature size
 #' @export
 #'
-recursive_feature_elimination <- function(countdata, conditions, method='repeatedcv', repeats = 10, number = 5,  metric = 'Accuracy' , balanced=F, two_step=F){
+recursive_feature_elimination <- function(countdata, conditions, method='repeatedcv', repeats = 10, number = 5,  
+                                          metric = 'Accuracy' , balanced=F, two_step=F){
 
   #Run 1
   subset_sizes = c(2:10,seq(from=15,to=100,by = 5),seq(from=110,200,by = 10),seq(from=220,ncol(countdata),by = 20))
@@ -251,6 +252,7 @@ get_final_model <- function(countdata, conditions, balanced=FALSE, ntree=NULL, l
   
   ntree =  set_number_of_trees(ntree)
   mtry = get_mtry(ncol(countdata))
+  print(mtry)
   validate = check_input_samples(conditions, lower_limit)
   
   if(!validate$valid_comparison){
@@ -391,7 +393,7 @@ write_to_json <- function(dataset, data, description, output_dir, file_name){
 #' @param countdata count data matrix
 #' @param conditions labels of count data matrix
 #' @param repeats - the cross-validation procedure is repeated n times
-#' @param fold - number of folds for resamplin
+#' @param fold - number of folds for resampling
 #' @param ntree number of trees, default 100,000 if sample size >100, set to 10,000
 #' @import randomForest
 #' @export
@@ -443,4 +445,135 @@ oob <- function(rf_model){
   oob_df["ntree"] = rownames(oob_df)
   return(oob_df)
 }
+
+
+
+#' Preprocessing step to change data into the right format and splits into training and test datasets
+#' 
+#' @param count_matrix count matrix
+#' @param conditions conditions 
+#' @param pct - percentage for test and training data
+#' @export
+preProcessing <- function(count_matrix, conditions, pct){
+  input <- count_matrix
+  input <- as.data.frame(cbind(conditions, input))
+  colnames(input)[1] <- 'Conditions'
+  smp_siz = floor(pct*nrow(input))
+  train_ind = sample(seq_len(nrow(input)),size = smp_siz)
+
+  train = as.data.frame(input[train_ind,])
+  test= as.data.frame(input[-train_ind,])
+
+  return(list("train"=train, "test"=test))
+}
+
+
+#' Kmeans clustering step
+#' 
+#' @param train training dataset
+#' @param no_clusters number of clusters  
+#' @export
+kmeansclustering <- function(train, no_clusters){
+  train = t(train[, -1])
+  kclusters = kmeans(train, no_clusters)
+  
+  return(kclusters)
+}
+
+
+
+#' SVM Scoring step ( runs svm on the clusters and scores clusters)
+#' 
+#' @param train training dataset
+#' @param kclusters required number of clusters  
+#' @export
+svm_scoring <- function(train, kclusters){
+  cluster_size = length(kclusters$size)
+  
+  svm_result <- data.frame(matrix(nrow = cluster_size, ncol = 3))
+  colnames(svm_result) <- c("cluster", "accuracy", "count_genes")
+  
+  #train_dump = t(train[, -1])
+  
+  for (i in 1:cluster_size){
+    # cat('Prediction for Cluster', i, '\n')
+    
+    cluster <- as.data.frame(train[, kclusters$cluster == i])
+    cluster <- cbind(train$Conditions, cluster)
+    colnames(cluster)[1] <- 'Conditions'
+    
+    #Basic Model
+    svm_model= svm(Conditions~.,data=cluster, type='C-classification', cross=3)
+    
+    svm_result[i, 1] <- i
+    svm_result[i, 2] <- svm_model$tot.accuracy
+    svm_result[i, 3] <- ncol(cluster)
+  }
+  
+  return(svm_result)
+}
+
+
+#' RCE step to remove clusters with the lowest accuracy. 
+#' 
+#' @param svm_result result from svm scoring step
+#' @param kclusters required number of clusters  
+#' @param train training dataset 
+#' @export
+rce_step <-function(svm_result, kclusters, train){
+  
+  subset_res_low <-subset(svm_result, svm_result$accuracy <= quantile(svm_result$accuracy, prob =0.20))
+  cluster_nos <- as.vector(subset_res_low$cluster)
+  
+  train = lapply(cluster_nos, getClusterGenes, kclusters=kclusters, train=train)
+  train = as.data.frame(train[length(cluster_nos)])
+  
+  return(list("train" = train, "cluster_k" = length(cluster_nos)))
+}
+
+
+
+#' Retrieves gene list given cluster number 
+#' 
+#' @param cluster_no cluster number
+#' @param train training dataset 
+#' @param kclusters training dataset 
+#' @export
+getClusterGenes <- function(cluster_no, train, kclusters){
+  
+  cluster <- as.data.frame(train[, kclusters$cluster == cluster_no])
+  
+  col_names = as.list(colnames(cluster))
+  myvars <- names(train) %in% col_names
+  train <- train[!myvars]
+  
+  return(train)
+}
+
+
+
+#' Returns a new dataframe with selected genes
+#' 
+#' @param train training dataset
+#' @param no_clusters number of clusters 
+#' @param required_no_clusters required number of clusters
+#' @export
+rce_svm <- function(train, no_clusters, required_no_clusters){
+  
+  while (no_clusters > required_no_clusters){
+    kclusters = kmeansclustering(train, no_clusters)
+    svm_result = svm_scoring(train, kclusters)
+    new_train = rce_step(svm_result, kclusters, train)
+    
+    train = new_train$train
+    no_clusters = no_clusters - new_train$cluster_k
+    cat("No of clusters ", no_clusters, "\n")
+    cat("No of Variables ", ncol(train), "\n")
+  }
+  return(train[, -1])
+}
+
+
+
+
 
